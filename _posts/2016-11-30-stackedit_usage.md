@@ -37,20 +37,20 @@ tags: Markdown_Usage
 
 2. **결과를 실시간으로 확인할 수 있다.**
  
- 글을 작성하다 보면 내가 올바른 문법을 이용해서 글을 쓰고 있는지 궁금할 수 있는데, 스텍에딧은 바로 오른쪽 화면에 마크다운으로 쓴 글에 대한 결과를 실시간으로 보여준다. 따라서 문법 수정 및 문장 구성에 대한 확인이 매우 간편하다. 
-  
-  ![enter image description here](https://lh3.googleusercontent.com/-DEviaU1hzmA/WDxBBZ4sMuI/AAAAAAAAEDI/96PXJ1FEdrUI53RHhgpQtYR51UcRBBbkwCLcB/s600/Screen+Shot+2016-11-28+at+11.36.24+PM.png "Screen Shot 2016-11-28 at 11.36.24 PM.png")
+ 글을 작성하다 보면 내가 올바른 문법을 이용해서 글을 쓰고 있는지 궁금할 수 있는데, 스텍에딧은 바로 오른쪽 화면에 마크다운으로 쓴 글에 대한 결과를 실시간으로 보여준다. 따라서 문법 수정 및 문장 구성에 대한 확인이 매우 간편하다.
+  <br/>
+  ![enter image description here](https://lh3.googleusercontent.com/-DEviaU1hzmA/WDxBBZ4sMuI/AAAAAAAAEDI/96PXJ1FEdrUI53RHhgpQtYR51UcRBBbkwCLcB/s600/Screen+Shot+2016-11-28+at+11.36.24+PM.png "Screen Shot 2016-11-28 at 11.36.24 PM.png")<br/>
 
 3. **블로거로 직접 글을 포스팅 할 수 있다.**
  
  최종적으로 글이 완성되었다면 좌측 상단의 샵(#)버튼을 누르고 'Publish'를 선택한 뒤, 'Blog URL'란에다가 자신의 블로그 주소를 적는다. 그리고 ' Format'을 HTML버전으로 선택하고 퍼블리쉬 하면 대략 2-3초 뒤에 완료 메시지가 뜨고 블로거에 글이 자동적으로 올라가게 된다. 등록된 글을 확인해보고 수정사항이 필요하여 글을 고쳤다면 다시 한번 샵 버튼을 누르고 퍼블리쉬를 선택한 뒤에 이번에는 'update publication'을 선택하여 빠르게 수정사항을 업데이트 할 수 있다. (작성한 글을 처음으로 퍼블리쉬할 경우에는 update publication 버튼창이 안뜬다. 적어도 한번은 퍼블리쉬를 해야 그 이후에 버튼창이 생성된다. )
- 
- ![enter image description here](https://lh3.googleusercontent.com/-C0Sv4wmRLHU/WDxC9fNxMjI/AAAAAAAAEDw/j7yr5WalvUARer_vh_JCSwoHEfPpXmKGQCLcB/s600/Screen+Shot+2016-11-28+at+11.44.01+PM.png "Screen Shot 2016-11-28 at 11.44.01 PM.png")
+ <br/>
+ ![enter image description here](https://lh3.googleusercontent.com/-C0Sv4wmRLHU/WDxC9fNxMjI/AAAAAAAAEDw/j7yr5WalvUARer_vh_JCSwoHEfPpXmKGQCLcB/s600/Screen+Shot+2016-11-28+at+11.44.01+PM.png "Screen Shot 2016-11-28 at 11.44.01 PM.png")<br/>
 
 4. **파일을 쉽게 생성하고 관리할 수 있다.**
  
  기존에 만든 문서는 우측상단 폴더모양을 클릭하면 하단에 나열된다. 이 외에도 새로운 문서의 생성 및 기존 문서의 삭제가 버튼 클릭만으로 쉽고 자유롭게 진행된다. 또한 아직 필자는 이용해 보지 못했지만 온라인 상이 아닌 오프라인 상일때도 문서 작업이 가능하다고 하니 블로그 관리가 사실상 24시간 가능하다고 할 수 있다.      
- 
+ <br/>
  ![enter image description here](https://lh3.googleusercontent.com/DsLe9S7m7rqx9gYUtGj7-hZ2Iwaga6cSTUE666qtD2SM1gu1WCqu2K_lzHdu4EeEeBuyGLLz=s600 "Screen Shot 2016-11-28 at 3.46.25 AM.png")
  <br/><br/>
 
