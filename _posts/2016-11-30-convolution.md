@@ -14,7 +14,7 @@ published: true
 ---
 
 ## Convolution
-- convolution은 두 function, f(x)와 g(x)에 대해, 그 중 한 function을 reverse하고, 시간 축(t축)으로 -∞에서 +∞로 shift하면서 두 function의 pointwise 곱의 합(적분)의 function이다.
+- convolution은 두 함수 f(x)와 g(x)에 대해, 그 중 한 function을 reverse하고, 시간 축(t축)으로 -∞에서 +∞로 shift하면서 두 function의 pointwise 곱의 합(적분)의 함수다.
 - 두 함수의 pointwise 곱의 합 혹은 적분은 결국 상수값이다.
 - convolution은 t의 함수이다.
 
