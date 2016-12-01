@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mathjax TEST
+title: Mathjax test
 description: "TEST"
 headline: "TEST"
 categories: Misc
