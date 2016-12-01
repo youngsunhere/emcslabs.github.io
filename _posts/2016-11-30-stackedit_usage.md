@@ -22,7 +22,7 @@ tags: Markdown_Usage
 ---
 
 ![enter image description here](https://lh3.googleusercontent.com/vZ5Ti_RDcmwhN5o9_GfPEDToo9vux0RHXtno5WuiGNawFaUwVA_dF1NnZPm-aiulBoVSrgiC=s450 "Screen Shot 2016-11-28 at 3.02.03 AM.png")
-[Image source](https://jeremykun.com/2015/01/10/my-latex-workflow-latexmk-sharelatex-and-stackedit/ "Title")
+[Image source](https://jeremykun.com/2015/01/10/my-latex-workflow-latexmk-sharelatex-and-stackedit/ "Title")<br/>
 
 이미 마크다운을 활용해 본 유저들이라면  Jekyll, Octopress 등 다양한 프로그램에 대해 들어봤을 것이다. 하지만 필자는 인터넷 웹상으로 쉽게 조작하고 블로그에 포스팅 할 수 있는 [스텍에딧]( https://stackedit.io/ "Title")을 소개하고자 한다.<br/><br/>
 
@@ -31,9 +31,9 @@ tags: Markdown_Usage
 
 1. **마크다운을 이용해 문서 편집이 편해진다.**
  
- 그림에서 보다시피 화면 상단에는 마크다운에 관한 간단한 기능이 정렬되어 있다. 하지만 이마저도 거의 안 쓸것이 마크다운에 대한 문법은 비교적 간단하기 때문에 몇 가지만 익힌다면 (그것마저 귀찮다면 옆에 마크다운 문법서를 펼쳐놓고 하자) 쉽게 글을 보기좋게 작성할 수 있다. 
-  
- ![enter image description here](https://lh3.googleusercontent.com/-awoOCgPntsI/WDxAwvVPeiI/AAAAAAAAEDA/ubmthfOEIRks0KiKneEmRGsgh42JVBnLQCLcB/s600/Screen+Shot+2016-11-28+at+11.35.04+PM.png "Screen Shot 2016-11-28 at 11.35.04 PM.png")
+ 그림에서 보다시피 화면 상단에는 마크다운에 관한 간단한 기능이 정렬되어 있다. 하지만 이마저도 거의 안 쓸것이 마크다운에 대한 문법은 비교적 간단하기 때문에 몇 가지만 익힌다면 (그것마저 귀찮다면 옆에 마크다운 문법서를 펼쳐놓고 하자) 쉽게 글을 보기좋게 작성할 수 있다.
+  <br/>
+ ![enter image description here](https://lh3.googleusercontent.com/-awoOCgPntsI/WDxAwvVPeiI/AAAAAAAAEDA/ubmthfOEIRks0KiKneEmRGsgh42JVBnLQCLcB/s600/Screen+Shot+2016-11-28+at+11.35.04+PM.png "Screen Shot 2016-11-28 at 11.35.04 PM.png")<br/>
 
 2. **결과를 실시간으로 확인할 수 있다.**
  
