@@ -43,7 +43,7 @@ published: true
 
 <br/>
 
-### 참조한 사이트
+## 참조한 사이트  
 - git을 시작하기 위한 간편안내서 (by. Roger Dudler, 한국어 번역 페이지.):  
 <https://rogerdudler.github.io/git-guide/index.ko.html>
 
