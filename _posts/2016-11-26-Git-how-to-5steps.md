@@ -12,7 +12,7 @@ imagecredit:
 imagecreditlink:
 comments: false
 mathjax: true
-featured: true
+featured: false
 published: true
 ---
 
