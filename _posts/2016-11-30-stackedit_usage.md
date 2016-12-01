@@ -1,25 +1,18 @@
 ---
 layout: post
-title: 마크다운(Markdown)으로 블로거 관리
-description: "Markdown Usage"
-headline: "Markdown Usage"
-categories: Misc
-tags: 
-  - Markdown
-comments: false
-mathjax: true
-featured: false
-published: true
+title: 마크다운(Markdown)으로 블로거 관리 (1)
+date: 2016-11-30
+tags: Markdown_Usage
 ---
-
-#### Use Markdown to polish your Google Blogger (1)
-*I'm sorry but this post is written in Korean. Please visit [StackEdit](https://stackedit.io/ "Title"), and [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Title") if you want to get some information related to this post. *
+####Use Markdown to polish your Google Blogger (1)
+*I'm sorry but this post is written in Korean. Please visit [StackEdit](https://stackedit.io/ "Title"), and [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Title") if you want to get some information related to this post.*
 
 ---
 
-누구나 한번쯤은 자신만의 블로그를 만들어 보고 싶을 것이다. 그리고 이왕이면 정말 멋지게 만들고 싶을 것이다. 오늘은 구글의 블로거를 이용하는 유저들에게 마크다운(Markdown)을 활용한 블로거 관리방법에 대해 이야기 하고자 한다.     
+누구나 한번쯤은 자신만의 블로그를 만들어 보고 싶을 것이다. 그리고 이왕이면 정말 멋지게 만들고 싶을 것이다. 오늘은 구글의 블로거를 이용하는 유저들에게 마크다운(Markdown)을 활용한 블로거 관리방법에 대해 이야기 하고자 한다.<br/><br/>
 
 ###**어딘가 단순하고 불편한 블로거**
+---
 
 필자는 원래 블로그에 관심이 없었다. 하지만 연구를 시작하고 다양한 실험을 진행하면서 어딘가에 기록하고 정보를 공유해야겠다는 필요성을 느끼기 시작했다. 그래서 뭔가 듣기만 해도 좋아보이는 구글의 블로거를 무턱대고 선택했다. 하지만 글자체 변경이라던가 페이지 조작면에서 워드(Word)와는 다른 불편함을 느끼기 시작했고 이곳저곳 검색해본 결과 마크다운을 활용한 블로거 관리방법에 대해 발견하게 되었다. 
 
