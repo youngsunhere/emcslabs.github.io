@@ -7,7 +7,7 @@ tags: Markdown_Usage
 ###Use Markdown to polish your Google Blogger (1)
 *I'm sorry but this post is written in Korean. Please visit [StackEdit](https://stackedit.io/ "Title"), and [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Title") if you want to get some information related to this post.*
 
-![enter image description here](https://1.bp.blogspot.com/-9eabBwVwyUg/WEAEe1bd8ZI/AAAAAAAAEGU/XFWQOHeQdLcu7JxV3wWgIA9ms12QojLRQCLcB/s600/Screen+Shot+2016-12-01+at+8.06.14+PM.png)
+![enter image description here](https://1.bp.blogspot.com/-9eabBwVwyUg/WEAEe1bd8ZI/AAAAAAAAEGU/XFWQOHeQdLcu7JxV3wWgIA9ms12QojLRQCLcB/s400/Screen+Shot+2016-12-01+at+8.06.14+PM.png)
 ---
 누구나 한번쯤은 자신만의 블로그를 만들어 보고 싶을 것이다. 그리고 이왕이면 정말 멋지게 만들고 싶을 것이다. 오늘은 구글의 블로거를 이용하는 유저들에게 마크다운(Markdown)을 활용한 블로거 관리방법에 대해 이야기 하고자 한다.<br/><br/>
 
