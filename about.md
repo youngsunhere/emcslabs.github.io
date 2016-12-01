@@ -7,9 +7,9 @@ image:
   feature: logo_wide.png
 ---
 
-  <img src="{{ site.url }}/images/emcs_alexman.png" alt="EMCS Laboratories at Alexander Mansion"> <img src="{{ site.url }}/images/emcs_murmur.png" alt="EMCS Laboratories at Alexander Mansion">
+  <img src="{{ site.url }}/images/emcs_alexman.png" alt="EMCS Laboratories at Alexander Mansion"> <img src="{{ site.url }}/images/emcs_murmur.jpg" alt="EMCS Laboratories at Alexander Mansion">
   
-   <img src="{{ site.url }}/images/emcs_matlab_tutor.png" alt="EMCS Laboratories at Alexander Mansion">
+   <img src="{{ site.url }}/images/emcs_matlab_tutor.jpg" alt="EMCS Laboratories at Alexander Mansion">
 
 
 
