@@ -1,8 +1,22 @@
 ---
 layout: post
-title: 다섯 줄로 배우는 가장 간단한 Git 사용법
-date: 2016-11-30
+title: 간단한 Git 사용법
+description: "다섯 줄로 배우는 가장 간단한 Git 사용법"
+headline: "다섯 줄로 배우는 가장 간단한 Git 사용법"
+categories: Misc
+tags: 
+  - git
+  - blogging
+imagefeature:
+imagecredit:
+imagecreditlink:
+comments: false
+mathjax: true
+featured: true
+published: true
 ---
+
+
 
 **1) CLONE - 2) cd - 3) ADD - 4) COMMIT - 5) PUSH**
 

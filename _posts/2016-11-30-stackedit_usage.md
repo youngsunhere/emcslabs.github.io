@@ -3,7 +3,7 @@ layout: post
 title: 마크다운(Markdown)으로 블로거 관리
 description: "Markdown Usage"
 headline: "Markdown Usage"
-categories: personal
+categories: Misc
 tags: 
   - Markdown
 comments: false

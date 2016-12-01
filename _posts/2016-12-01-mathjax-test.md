@@ -3,7 +3,7 @@ layout: post
 title: Mathjax TEST
 description: "TEST"
 headline: "TEST"
-categories: personal
+categories: Misc
 tags: 
   - blogging
   - jekyll
