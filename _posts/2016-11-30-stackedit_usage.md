@@ -22,7 +22,6 @@ tags: Markdown_Usage
 ---
 ![enter image description here](https://lh3.googleusercontent.com/vZ5Ti_RDcmwhN5o9_GfPEDToo9vux0RHXtno5WuiGNawFaUwVA_dF1NnZPm-aiulBoVSrgiC=s450 "Screen Shot 2016-11-28 at 3.02.03 AM.png")
 [Image source](https://jeremykun.com/2015/01/10/my-latex-workflow-latexmk-sharelatex-and-stackedit/ "Title")
-<br/>
 이미 마크다운을 활용해 본 유저들이라면  Jekyll, Octopress 등 다양한 프로그램에 대해 들어봤을 것이다. 하지만 필자는 인터넷 웹상으로 쉽게 조작하고 블로그에 포스팅 할 수 있는 [스텍에딧]( https://stackedit.io/ "Title")을 소개하고자 한다.<br/><br/>
 
 ###**스텍에딧의 장점**
