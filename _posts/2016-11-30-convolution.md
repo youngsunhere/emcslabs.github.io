@@ -3,7 +3,7 @@ layout: post
 title: Convolutional Neural Network Gist
 description: "Convolutional Neural Network"
 headline: "Convolutional Neural Network"
-categories: Machine_Learning
+categories: MACHINELEARNING
 tags: 
   - Machine Learning
   - CNN
