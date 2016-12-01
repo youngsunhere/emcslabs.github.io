@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Convolutional Neural Network Gist
+title: Convolution
 description: "Convolutional Neural Network"
 headline: "Convolutional Neural Network"
 categories: MACHINELEARNING
