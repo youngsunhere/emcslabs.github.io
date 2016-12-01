@@ -7,7 +7,11 @@ image:
   feature: logo_wide.png
 ---
 
-  <img src="{{ site.url }}/images/logo_wide.png" alt="EMCS Laboratories">
+  <img src="{{ site.url }}/images/emcs_alexman.png" alt="EMCS Laboratories at Alexander Mansion"> <img src="{{ site.url }}/images/emcs_murmur.png" alt="EMCS Laboratories at Alexander Mansion">
+  
+   <img src="{{ site.url }}/images/emcs_matlab_tutor.png" alt="EMCS Laboratories at Alexander Mansion">
+
+
 
 We are a team of researchers dedicated to interdisciplinary research in the language and speech sciences. As a team, we propose a research paradigm that employs state-of-the-art methodologies from cognitive science, neuroscience, computer science, statistics, electrical engineering, and physics. The areas of our current projects range widely from speech production and perception, reading, speech/language processing, to speech engineering technology. We fully utilize fMRI, EEG, eye-tracking, EMA (elctromagnetic articulography) and a range of computer programming tools (MATLAB, Python, R, etc.), as well as relevant machine learning algorithms (Hidden Markov Model, Artificial Neural Network, Deep Neural Network, Support Vector Machine, etc.).
 
