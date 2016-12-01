@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Mathjax TEST 2
+title: Mathjax TEST
 description: "TEST"
 headline: "TEST"
 categories: personal
 tags: 
   - blogging
   - jekyll
-imagefeature: "website-speed.jpg"
-imagecredit: spreadeffect.com
-imagecreditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
+imagefeature:
+imagecredit:
+imagecreditlink:
 comments: false
 mathjax: true
 featured: true
