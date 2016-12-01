@@ -1,8 +1,15 @@
 ---
 layout: post
 title: Mathjax TEST 2
-date: 2016-12-01
-use_math: true
+description: "TEST"
+headline: "TEST"
+categories: personal
+tags: 
+  - blogging
+  - jekyll
+mathjax: true
+featured: true
+published: true
 ---
 
 Let's test some inline math $x$, $y$, $x_1$, $y_1$.
