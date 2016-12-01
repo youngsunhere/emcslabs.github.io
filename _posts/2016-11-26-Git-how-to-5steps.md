@@ -22,7 +22,6 @@ published: true
 ### 1. CLONE
 - 서버 상의 저장소(repos) 복제해오기  
 `git clone https://github.com/EMCSlabs/emcslabs.github.io.git`
-
 - [참고] 저장소의 주소는 Github repository 오른쪽 상단에서 쉽게 확인 가능!![enter image description here](https://lh3.googleusercontent.com/-bd9vv1y2jwA/WD5GVU9BzQI/AAAAAAAAB1E/XTO08-Q77k8CLIwj9CmxUzR6l4xujlBYwCLcB/s0/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA+2016-11-30+%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE+12.19.50.png "git_howto_ex.png")
 
 ### 2. 로컬 저장소 속으로!
