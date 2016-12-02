@@ -20,6 +20,7 @@ Linear algebra video lectures on Youtube: [Essence of linear algebra
 ---
 
 **Statistics**
+
 ---
 
 **Tech**
