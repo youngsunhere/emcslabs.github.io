@@ -7,7 +7,7 @@ tags: [link, resource]
 ---
 
 **Machine Learning**
-
+AI basic concepts by Facebook Engineering team: (https://techcrunch.com/2016/12/01/facebooks-advice-to-students-interested-in-artificial-intelligence/)
 ---
 
 **Linear Algebra**
@@ -20,3 +20,5 @@ Linear algebra video lectures on Youtube: [Essence of linear algebra
 **Statistics**
 ---
 
+**Tech**
+Facebook Engineering Tech page: (https://www.facebook.com/pg/Engineering/videos/)
