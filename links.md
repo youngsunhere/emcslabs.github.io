@@ -21,7 +21,7 @@ Linear algebra video lectures on Youtube: [Essence of linear algebra
 
 **Math**
 
-Quick and easy guide to key ideas in Math: [Interactive Mathematics: Learn math while you play with it](http://www.intmath.com/)
+Quick and easy guide to key ideas in math: [Interactive Mathematics](http://www.intmath.com/)
 
 ---
 
