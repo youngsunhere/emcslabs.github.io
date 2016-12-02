@@ -16,6 +16,7 @@ published: true
 
 ## Convolution
 
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
 
 $$(f * g )(t) & \, \stackrel{\mathrm{def}}{=}\ \int_{-\infty}^\infty f(\tau)\, g(t - \tau) \, d\tau \\
 & = \int_{-\infty}^\infty f(t-\tau)\, g(\tau)\, d\tau$$
