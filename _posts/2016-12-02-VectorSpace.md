@@ -26,4 +26,4 @@ published: true
 - 즉, N차원 벡터는 N개의 숫자 나열로 볼 수 있다.
 - N차원 벡터공간(Vector space)란, N차원의 모든 벡터(점)들이 Span해서 가득 채우는 공간이다.
 
-<p align="right"> Yeonjung Hong <p>
+<p align="right"> Yeonjung Hong, Hosung Nam <p>
