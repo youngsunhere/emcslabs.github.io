@@ -10,14 +10,6 @@ tags: [EMCS, LABS, Laboratories, Korea, University]
 
 -------------------
 
---- description ---
-
---- description ---
-
---- description ---
-
--------------------
-
 
 진화하는 프로만이 함께 합니다
 
