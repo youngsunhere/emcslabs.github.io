@@ -16,11 +16,10 @@ published: true
 
 ## Convolution
 
-
-$
+\begin{align}
 (f * g )(t) & \, \stackrel{\mathrm{def}}{=}\ \int_{-\infty}^\infty f(\tau)\, g(t - \tau) \, d\tau \\
 & = \int_{-\infty}^\infty f(t-\tau)\, g(\tau)\, d\tau.
-$
+\end{align}
 
 - convolution은 두 함수 $f(t-\tau)$ 와 g(x)에 대해, 그 중 한 함수를 reverse하고, 시간 축(t축)으로 -∞에서 +∞로 shift하면서 두 function의 pointwise 곱의 합(적분)의 함수다.
 - 두 함수의 pointwise 곱의 합 혹은 적분은 결국 상수값이다.
