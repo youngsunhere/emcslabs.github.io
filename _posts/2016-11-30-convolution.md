@@ -15,7 +15,6 @@ published: true
 
 
 ## Convolution
-
 $$
 (f * g )(t) & \, \stackrel{\mathrm{def}}{=}\ \int_{-\infty}^\infty f(\tau)\, g(t - \tau) \, d\tau \\
 & = \int_{-\infty}^\infty f(t-\tau)\, g(\tau)\, d\tau.
