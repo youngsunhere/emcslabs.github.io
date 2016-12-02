@@ -5,7 +5,7 @@ title: Links for Useful Resources
 description: "Links for Useful Resources"
 tags: [link, resource]
 ---
-
+---
 **Machine Learning**
 
 AI basic concepts: [Facebook’s advice to students interested in artificial intelligence](https://techcrunch.com/2016/12/01/facebooks-advice-to-students-interested-in-artificial-intelligence/)  
