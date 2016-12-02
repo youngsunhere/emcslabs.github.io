@@ -40,6 +40,8 @@ links:
     url: /featured
   - title: Categories
     url: /categories
+  - title: Links
+    url: /links
   - title: About
     url: /about
 
