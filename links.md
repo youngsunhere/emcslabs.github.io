@@ -7,7 +7,9 @@ tags: [link, resource]
 ---
 
 **Machine Learning**
-AI basic concepts by Facebook Engineering team: (https://techcrunch.com/2016/12/01/facebooks-advice-to-students-interested-in-artificial-intelligence/)
+
+AI basic concepts by Facebook Engineering team: 
+(https://techcrunch.com/2016/12/01/facebooks-advice-to-students-interested-in-artificial-intelligence/)
 ---
 
 **Linear Algebra**
