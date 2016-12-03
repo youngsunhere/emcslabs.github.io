@@ -25,3 +25,6 @@ End-effector의 속도와 Joint의 각속도의 관계를 나타내는 편미분
 Jacobian matrix가 full rank가 아닌 경우나 singular (det(J)==0) 인 경우를 제외하고는 
 항상 End-effertor의 속도를 결정하는 Joint 각속도를 계산할 수 있습니다.
 Full rank가 아닌경우 즉 Jacobian matrix가 square matrix(행, 렬의 개수가 같은 정사각형 행렬)가 아닌 경우는 
+
+
+<p align="right"> Hosung Nam <p>
