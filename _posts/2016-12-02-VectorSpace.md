@@ -8,7 +8,7 @@ tags:
   - Math
 comments: false
 mathjax: true
-featured: false
+featured: true
 published: true
 ---
 
