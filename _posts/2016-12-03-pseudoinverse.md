@@ -15,3 +15,10 @@ published: true
 ---
 
 ## Pseudoinverse
+
+
+$2x  +  y =  4 \\\
+x  +  y = 3$
+
+$\begin{bmatrix}2 \ 1\\1 \ 1\end{bmatrix} \begin{bmatrix}x\\y\end{bmatrix}=\begin{bmatrix}4\\3\end{bmatrix}$
+
