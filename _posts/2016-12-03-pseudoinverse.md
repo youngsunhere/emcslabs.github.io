@@ -16,7 +16,7 @@ published: true
 
 ## Pseudoinverse
 
-연립방정식을 풀 때 다음과 같이 inverse matrix을 이용하면 쉽게 그 해를 구할 수 있다.
+연립방정식을 풀 때 다음과 같이 inverse matrix을 이용하면 쉽게 그 해를 구할 수 있다.  
 $2x  +  y =  4 \\\
 x  +  y = 3$
 
