@@ -12,8 +12,15 @@ featured: true
 published: true
 ---
 
-## MATRIX equation
+## MATRIX equation  
+
 $Ax = b$ (N.B. $x$: unknown params)
+matrix equation 
+
+**벡터를 이동(transform)시키는 함수**
+Ax=b
+매트릭스 A는 벡터 x를 이동시키고 난 후의 벡터 b를 출력한다. 
+
 
 **연립방정식 (여러 개의 모델을 동시에 만족시키는 해 구하기)**
 
