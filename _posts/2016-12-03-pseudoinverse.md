@@ -30,7 +30,7 @@ $\begin{bmatrix}x \\\ y \end{bmatrix}=\begin{bmatrix}2 & 1 \\\ 1 & 1 \end{bmatri
 -  그 square matrix의 inverse를 구하고,
 - 다시, transpose를 곱해 원래의 직사각형 행렬로 돌아오면 된다.<br><br>
 
-m > n: left inverse -> $(A^{T}A)^{-1}A^{T}$
-n > m: right inverse -> $A^{T}(AA^{T})^{-1}$
+m > n: left inverse -> $(A^{T}A)^{-1}A^{T}$  
+n > m: right inverse -> $A^{T}(AA^{T})^{-1}$  
 left, right를 이렇게 구분하기 싫으면, SVD(singular vector decomposition)로 그냥 구하면 됨.
 
