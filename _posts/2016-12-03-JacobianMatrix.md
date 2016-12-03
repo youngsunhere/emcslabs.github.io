@@ -3,7 +3,7 @@ layout: post
 title: Jacobian Matrix
 description: "Jacobian Matrix"
 headline: "Jacobian Matrix"
-categories: Linear Algebra
+categories: Math
 tags: 
   - Matrix
   - Jacobian
