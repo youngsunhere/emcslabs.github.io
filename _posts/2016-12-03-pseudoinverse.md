@@ -28,8 +28,9 @@ $\begin{bmatrix}x \\\ y \end{bmatrix}=\begin{bmatrix}2 & 1 \\\ 1 & 1 \end{bmatri
 
 - m by n 직사각형 matrix에 자신의 transpose인 $A^{T}A$ 혹은  $AA^{T}$를 곱한 뒤 square matrix로 만든다. 이때, m 과 n 중 작은 수 (즉, rank) 의 square가 되도록 transpose 해주는 것이다.
 -  그 square matrix의 inverse를 구하고,
-- 다시, transpose를 곱해 원래의 직사각형 행렬로 돌아오면 된다.
-- m > n: left inverse -> $(A^{T}A)^{-1}A^{T}$
-- n > m: right inverse -> $A^{T}(AA^{T})^{-1}$
-- left, right를 이렇게 구분하기 싫으면, SVD(singular vector decomposition)로 그냥 구하면 됨.
+- 다시, transpose를 곱해 원래의 직사각형 행렬로 돌아오면 된다.<br><br>
+
+m > n: left inverse -> $(A^{T}A)^{-1}A^{T}$
+n > m: right inverse -> $A^{T}(AA^{T})^{-1}$
+left, right를 이렇게 구분하기 싫으면, SVD(singular vector decomposition)로 그냥 구하면 됨.
 
