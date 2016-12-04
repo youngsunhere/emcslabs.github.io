@@ -25,7 +25,9 @@ $B = \begin{bmatrix} a & b & c\\\d & e & f \\\g & h & i\\\
 \end{bmatrix}$
 
 B의 determinant는 아래와 같이 구한다. <br>
-$\begin{vmatrix} a & b & c \\\ d & e & f \\\ g & h & i\end{vmatrix}= a\begin{vmatrix} e & f \\\ h & i\end{vmatrix}-b\begin{vmatrix}d&f\\\g&i\end{vmatrix}+c\begin{vmatrix}d&e\\\g&h\end{vmatrix} \\\ = a(ei-fh)-b(di-fg)+c(dh-eg) \\\ = aei+bfg+cdh-ceg-bdi-afh$
+$\begin{vmatrix} a & b & c \\\ d & e & f \\\ g & h & i\end{vmatrix}= a\begin{vmatrix} e & f \\\ h & i\end{vmatrix}-b\begin{vmatrix}d&f\\\g&i\end{vmatrix}+c\begin{vmatrix}d&e\\\g&h\end{vmatrix} \\\ 
+&nbsp;&nbsp;= a(ei-fh)-b(di-fg)+c(dh-eg) \\\ 
+&nbsp;&nbsp;= aei+bfg+cdh-ceg-bdi-afh$
 
 행렬 B의 determinant는 3차원 공간에서 3개의 열벡터로 만들어지는 box의 부피이다.  <br><br>
 
