@@ -13,11 +13,6 @@ published: true
 ---
 ## Determinant
 
-$\begin{bmatrix} x_1 & 1 \\\ x_2 & 1 \\\ x_3 & 1 \\\ x_4 & 1 \\\ x_5 & 1 \\\ x_6 & 1 \\\ . & . \\\ . & . \\\ . & .  \\\  x_n & 1 \end{bmatrix} \begin{bmatrix}a \\\ b \end{bmatrix}=\begin{bmatrix} y_1 \\\ y_2 \\\ y_3 \\\ y_4 \\\ y_5 \\\ y_6 \\\ . \\\ . \\\ . \\\ y_n\end{bmatrix}$
-
-
-
-
 $A = \begin{bmatrix} a & b\\\c & d \\\
 \end{bmatrix}$
 
