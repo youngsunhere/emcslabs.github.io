@@ -13,15 +13,15 @@ published: true
 ---
 ## Determinant
 
-$A = \begin{bmatrix} a & b \\ c & d \\
+$A = \begin{bmatrix} a & b\\c & d \\
 \end{bmatrix}$
 
 A의 determinant는 아래와 같이 구한다.
 
-$\begin{vmatrix} a & b \\ c & d \end{vmatrix} & = ad - bc$
+$ \begin{vmatrix} a & b\\c & d \end{vmatrix} & = ad - bc $
 행렬 A의 determinant (=ad-bc)는 2차원 평면에서 2개의 열벡터로 만들어지는 평행사변형의 넓이와 동일하다. <br><br>
 
-$B = \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i\\
+$B = \begin{bmatrix} a & b & c\\d & e & f\\g & h & i\\
 \end{bmatrix}$
 
 B의 determinant는 아래와 같이 구한다. <br>
