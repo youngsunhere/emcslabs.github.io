@@ -24,7 +24,7 @@ $\frac{dx}{dt}=\frac{dx}{dθ}\frac{dθ}{dt}=J\frac{dθ}{dt}$
 
 $\dot{x}=J\dot{θ}$
 
-$θ$에서 $x$,  $\dot{θ}$에서 $\dot{x}$의 계산이 forward kinematics이다. 하지만, 이 방향보단 반대의 방향, 즉 $x$에서 $θ$,  $\dot{x}$에서 $\dot{θ}$의 계산인 inverse kinematics가 현실에 더 필요하다. $θ$에서 $x$로의 직접적인 inverse kinematics는 도출이 힘들지만, $\dot{θ}$에서 $\dot{x}$의 forward kinematics는 $J$만 inverse 취하면 쉽게 그 inverse kinematics를 구할 수 있다.
+$θ$에서 $x$,  $\dot{θ}$에서 $\dot{x}$의 계산이 forward kinematics이다. 하지만, 이 방향보단 반대의 방향, 즉 $x$에서 $θ$,  $\dot{x}$에서 $\dot{θ}$의 계산인 inverse kinematics가 현실에 더 필요하다. $θ$에서 $x$로의 forward kinematics에서 바로 그 inverse kinematics를 도출하는 것은 힘들다. 하지만, $\dot{θ}$에서 $\dot{x}$의 forward kinematics에서는 $J$만 inverse 취하면 쉽게 그 inverse kinematics를 구할 수 있다.
 
 $\dot{θ}=J^{-1}\dot{x}$
 
