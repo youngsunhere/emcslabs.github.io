@@ -46,12 +46,10 @@ $x, \dot{x}$ $\to$ $\ddot{x}$
 
 inverse kinematics  
 $\ddot{x}$ $\to$ $\ddot{θ}$
-$θ, \dot{θ}, \ddot{θ}_{T=1}$ $\to$ $θ, \dot{θ}$
 
 integrate/solve  
-$θ, \dot{θ}$ $,\ddot{θ}_{T=1}$ $\to$ $θ, \dot{θ}$  
+$θ, \dot{θ}, \ddot{θ}_{T=1}$ $\to$ $θ, \dot{θ}_{T}$
 
-$θ, \dot{θ}_{T=1}$ $\to$ $x, \dot{x}$ $\to$ $\ddot{x}$ $\to$ $\ddot{θ}$ $\to$ $θ, \dot{θ}_{T=2}$  
 
 
 <p align="right"> Hosung Nam <p>
