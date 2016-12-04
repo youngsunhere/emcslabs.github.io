@@ -45,12 +45,12 @@ dynamics
 $x, \dot{x}$ $\to$ $\ddot{x}$  
 
 inverse kinematics  
-$\ddot{x}$ $\to$ $\ddot{θ}$  
-$θ, \dot{θ}, \ddot{θ}_{T=1}$ $\to$   
-$θ, \dot{θ}_{T=2}$  
+$\ddot{x}$ $\to$ $\ddot{θ}$<br>
+$θ, \dot{θ}, \ddot{θ}_{T=1}$ $\to$<br>   
+$θ, \dot{θ}_{T=2}$<br>
 
 integrate/solve  
-$θ, \dot{θ}$ $,\ddot{θ}_{T=1}$ $\to$ $θ, \dot{θ}_{T=2}$  
+$θ, \dot{θ}$  $,\ddot{θ}_{T=1}$  $\to$ $θ, \dot{θ}_{T=2}$  
 
 $θ, \dot{θ}_{T=1}$ $\to$ $x, \dot{x}$ $\to$ $\ddot{x}$ $\to$ $\ddot{θ}$ $\to$ $θ, \dot{θ}_{T=2}$  
 
