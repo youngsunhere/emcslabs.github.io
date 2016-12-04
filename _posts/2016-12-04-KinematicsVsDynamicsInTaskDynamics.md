@@ -47,7 +47,8 @@ $x, \dot{x}$ $\to$ $\ddot{x}$
 inverse kinematics  
 $\ddot{x}$ $\to$ $\ddot{θ}$  
 $θ, \dot{θ}, \ddot{θ}_{T=1}$ $\to$   
-$θ, \dot{θ}_{T=2}$
+$θ, \dot{θ}_{T=2}$  
+
 integrate/solve  
 $θ, \dot{θ}$ $,\ddot{θ}_{T=1}$ $\to$ $θ, \dot{θ}_{T=2}$  
 
