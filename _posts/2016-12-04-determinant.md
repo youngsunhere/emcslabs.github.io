@@ -13,8 +13,8 @@ published: true
 ---
 ## Determinant
 
-$\begin{align}A = \begin{bmatrix} a & b  \\c & d \\
-\end{bmatrix}\end{align}$
+$A = \begin{bmatrix} a & b  \\c & d \\
+\end{bmatrix}$
 
 A의 determinant는 아래와 같이 구한다. <br>
 $\begin{align}\begin{vmatrix} a & b\\c & d \end{vmatrix} 
