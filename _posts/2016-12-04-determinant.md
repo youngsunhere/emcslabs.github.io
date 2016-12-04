@@ -18,18 +18,8 @@ $A = \begin{bmatrix} a & b\\\c & d \\\
 
 A의 determinant는 아래와 같이 구한다.
 
-$ \begin{vmatrix} a & b \\\ c & d \end{vmatrix}= ad - bc$ <br>
+$ \begin{vmatrix} a & b \\\ c & d \end{vmatrix}= (a+b)(c+d)-ac-bd-2bc=ad - bc$ <br>
 행렬 A의 determinant (=ad-bc)는 2차원 평면에서 2개의 열벡터로 만들어지는 평행사변형의 넓이와 동일하다. <br><br>
-
-$B = \begin{bmatrix} a & b & c\\\d & e & f \\\g & h & i\\\
-\end{bmatrix}$
-
-B의 determinant는 아래와 같이 구한다. <br>
-$\begin{vmatrix} a & b & c \\\ d & e & f \\\ g & h & i\end{vmatrix}= a\begin{vmatrix} e & f \\\ h & i\end{vmatrix}-b\begin{vmatrix}d&f\\\g&i\end{vmatrix}+c\begin{vmatrix}d&e\\\g&h\end{vmatrix} \\\ 
-&nbsp;&nbsp;= a(ei-fh)-b(di-fg)+c(dh-eg) \\\ 
-&nbsp;&nbsp;= aei+bfg+cdh-ceg-bdi-afh$
-
-행렬 B의 determinant는 3차원 공간에서 3개의 열벡터로 만들어지는 box의 부피이다.  <br><br>
 
 - n-by-n 행렬의 determinant는 그 행렬의 열벡터로 만들어지는 n차원 box의 부피이다.
 - n차원 box를 생성하기 위해서는 n개의 벡터가 필요하므로 determinant란 자연히 square matrix에서만 구할 수 있게 된다.
