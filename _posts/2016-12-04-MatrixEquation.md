@@ -12,18 +12,16 @@ featured: true
 published: true
 ---
 
-## MATRIX equation  
+## MATRIX equation  
 
-$Ax = b$ (N.B. $x$: unknown params)
-matrix equation 
+$Ax = b$ (N.B. $x$: unknown params)  
+matrix equation은 다음의 세가지 다른 관점에서 생각해 볼 수 있다.
 
-**벡터를 이동(transform)시키는 함수**
-Ax=b
+**벡터를 이동(transform)시키는 함수**  
+Ax=b  
 매트릭스 A는 벡터 x를 이동시키고 난 후의 벡터 b를 출력한다. 
 
-
-**연립방정식 (여러 개의 모델을 동시에 만족시키는 해 구하기)**
-
+**연립방정식 (여러 개의 모델을 동시에 만족시키는 해 구하기)**  
 $2x + y = 4 \\\ x + y = 3$
 
 $\begin{bmatrix}2 & 1 \\\ 1 & 1 \end{bmatrix} \begin{bmatrix}x \\\ y \end{bmatrix}=\begin{bmatrix} 4 \\\ 3 \end{bmatrix}$
