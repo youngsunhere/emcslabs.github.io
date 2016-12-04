@@ -21,15 +21,15 @@ kinematics는 motion의 특징인 위치, 속도, 가속도 자체만이 그 연
 
 forward kinematics는 joint의 motion 특징인 $θ, \dot{θ}, \ddot{θ}$으로부터 task의 motion 특징인 $x, \dot{x}, \ddot{x}$ 으로의 매핑이다.
 
-$x = f(θ)$
-$\dot{x}=J\dot{θ}$
+$x = f(θ)$  
+$\dot{x}=J\dot{θ}$  
 $\ddot{x}=J\ddot{θ} +\dot{J}\dot{θ}$  
 
 inverse kinematics는  task 변수 $x, \dot{x}, \ddot{x}$로부터 joint 변수 $θ, \dot{θ}, \ddot{θ}$ 으로의 매핑이다. 
 
-$θ=f^{-1}(x)$
-$\dot{θ}=J^{-1}\dot{x}$
-$\ddot{θ} =J^{-1}(\ddot{x}-\dot{J}\dot{θ})$
+$θ=f^{-1}(x)$  
+$\dot{θ}=J^{-1}\dot{x}$  
+$\ddot{θ} =J^{-1}(\ddot{x}-\dot{J}\dot{θ})$  
 
 원래 robotics의 큰 흐름은 forward kinematics $\to$ inverse kinematics $\to$ dynamics $\to$ control theory이다.
 
@@ -38,14 +38,18 @@ dynamics는 position, velocity를 기반으로 force를 계산하는 방법으�
 **Task-Dynamics**
 
 forward kinematics  
-$θ, \dot{θ}_{T=1}$ $\to$ $x, \dot{x}$ 
+$θ, \dot{θ}_{T=1}$ $\to$ $x, \dot{x}$  
 
 dynamics  
-$x, \dot{x}$ $\to$ $\ddot{x}$ 
+$x, \dot{x}$ $\to$ $\ddot{x}$  
 
 inverse kinematics  
-$\ddot{x}$ $\to$ $\ddot{θ}$ 
+$\ddot{x}$ $\to$ $\ddot{θ}$  
 
 integrate/solve  
+$θ, \dot{θ},\ddot{θ}_{T=1} $ $\to$ $θ, \dot{θ}_{T=2}$  
+
+$θ, \dot{θ}_{T=1}$ $\to$ $x, \dot{x}$ $\to$ $\ddot{x}$ $\to$ $\ddot{θ}$ $\to$ $θ, \dot{θ}_{T=2}$  
+
 
 <p align="right"> Hosung Nam <p>
