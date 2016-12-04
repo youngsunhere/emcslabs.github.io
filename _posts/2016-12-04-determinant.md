@@ -24,8 +24,9 @@ $ \begin{vmatrix} a & b \\\ c & d \end{vmatrix}= (a+b)(c+d)-ac-bd-2bc=ad - bc$ <
 
 - n-by-n 행렬의 determinant는 그 행렬의 열벡터로 만들어지는 n차원 box의 부피이다.
 - n차원 box를 생성하기 위해서는 n개의 벡터가 필요하므로 determinant란 자연히 square matrix에서만 구할 수 있게 된다.
-- determinant가 0이라는 것은 n-by-n의 열벡터가 linearly dependent하기 때문에 n차원 공간 내에서 '부피'를 형성하지 못한다는 뜻이다. 예를 들어, 3차원인 3개의 열벡터가 linearly dependent하여 2차원 평면밖에 구성하지 못할 때, 그 box의 부피는 0이다. 
 - determinant가 0인 행렬을 singular matrix라고 부른다. 
+- singular matrix를 곱하여 n차원 공간을 transform하면 넓이 0의 영역이 탄생한다. 
+- determinant가 0이라는 것은 n-by-n의 열벡터가 linearly dependent하기 때문에 n차원 공간 내에서 '부피'를 형성하지 못한다는 뜻이다. 예를 들어, 3차원인 3개의 열벡터가 linearly dependent하여 2차원 평면밖에 구성하지 못할 때, 그 box의 부피는 0이다. 
 - determinant가 음수라는 것은 n개 벡터의 orientation의 순서가 reverse되었다는 뜻일 뿐 그 절대값은 여전히 n차원 box의 부피와 동일하다 <br>
 
 
