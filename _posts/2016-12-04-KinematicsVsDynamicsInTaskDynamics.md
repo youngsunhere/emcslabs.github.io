@@ -39,7 +39,7 @@ dynamics는 position, velocity를 기반으로 force를 계산하는 방법으�
 **Task-Dynamics**
 
 forward kinematics  
-$θ, \dot{θ}_{T=1}$ $\to$ $x, \dot{x}$  
+$θ, \dot{θ}$ $\to$ $x, \dot{x}$  
 
 dynamics  
 $x, \dot{x}$ $\to$ $\ddot{x}$  
@@ -48,7 +48,7 @@ inverse kinematics
 $\ddot{x}$ $\to$ $\ddot{θ}$
 
 integrate/solve  
-$θ, \dot{θ}, \ddot{θ}_{T=1}$ $\to$ $θ, \dot{θ}_{T}$
+$θ, \dot{θ}, \ddot{θ}(T=1)$ $\to$ $θ, \dot{θ} (T=2)$
 
 
 
