@@ -34,3 +34,6 @@ Quick and easy guide to key ideas in math: [Interactive Mathematics](http://www.
 
 Facebook Engineering Tech page: [Facebook Engineering Videos](https://www.facebook.com/pg/Engineering/videos/)  
 
+**Misc**
+
+Setting up Your Python Environment + Jupyter: [Quantitative Economics](http://lectures.quantecon.org/py/getting_started.html#first-steps)
