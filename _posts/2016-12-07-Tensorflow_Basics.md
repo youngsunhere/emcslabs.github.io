@@ -25,16 +25,14 @@ published: true
 - 텐서플로우 설치 후 아래 커맨드를 실행하면 다음과 같은 설명을 볼 수 있다
 
    ~~~ shell
-   $ pip show tensorflow
-   ~~~
+$ pip show tensorflow  
+~~~
 
    > Name: tensorflow   
    > Version: 0.11.0  
    > Summary: **TensorFlow helps the tensors flow**  
 
-<br />
 ---
-<br />
 
 ## 기본 용어
 <br />
@@ -59,9 +57,7 @@ published: true
 - 변수는 그래프의 실행시, 패러미터를 저장하고 갱신하는데 사용
 - 메모리 상에서 텐서를 저장하는 버퍼 역할을 한다
 
-<br />
 ---
-<br />
 
 ## (거의) 모든 것은 operation !
 
@@ -81,6 +77,8 @@ sess = tf.Session()
 # 세션 실행 결과 출력
 print sess.run(hello)
 ~~~
+
+<br />
 
 ### 예제 2
 ~~~ python
@@ -104,6 +102,8 @@ print c
 # 세션 실행 결과를 출력
 print sess.run(c)
 ~~~
+
+<br />
 
 ### 예제 3
 ~~~ python
@@ -133,6 +133,8 @@ with tf.Session() as sess:
 
 # 0, 1, 2, 3 이 출력된다
 ~~~
+
+---
 
 <p align="right"><b> Sung Hah Hwang </b></p>
 
