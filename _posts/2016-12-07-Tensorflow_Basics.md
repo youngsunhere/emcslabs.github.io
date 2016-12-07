@@ -15,6 +15,8 @@ published: true
 
 # Tensorflow 기초
 
+<br />
+
 - 텐서플로우는 기계학습과 딥러닝을 위해 구글에서 만든 오픈소스 소프트웨어 라이브러리  
 - C++와 Python을 지원
 - 데이터 플로우 그래프(data flow graph)를 이용해 수치계산(numerical computation)  
@@ -22,17 +24,20 @@ published: true
 - 데이터는 당연히 다차원 배열이고 **텐서**(tensor)라고 부르기에 텐서플로우라는 이름이 지어졌다
 - 텐서플로우 설치 후 아래 커맨드를 실행하면 다음과 같은 설명을 볼 수 있다
 
-~~~ shell
-$ pip show tensorflow
-~~~
+   ~~~ shell
+   $ pip show tensorflow
+   ~~~
 
-> Name: tensorflow   
-> Version: 0.11.0  
-> Summary: **TensorFlow helps the tensors flow**  
+   > Name: tensorflow   
+   > Version: 0.11.0  
+   > Summary: **TensorFlow helps the tensors flow**  
 
+<br />
+---
+<br />
 
 ## 기본 용어
-
+<br />
 ### 오퍼레이션(Operation)
 
 - 그래프 상의 노드는 오퍼레이션으로 불린다
@@ -54,6 +59,9 @@ $ pip show tensorflow
 - 변수는 그래프의 실행시, 패러미터를 저장하고 갱신하는데 사용
 - 메모리 상에서 텐서를 저장하는 버퍼 역할을 한다
 
+<br />
+---
+<br />
 
 ## (거의) 모든 것은 operation !
 
