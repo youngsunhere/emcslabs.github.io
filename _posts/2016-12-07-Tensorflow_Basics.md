@@ -24,7 +24,7 @@ published: true
 - 데이터는 당연히 다차원 배열이고 **텐서**(tensor)라고 부르기에 텐서플로우라는 이름이 지어졌다
 - 텐서플로우 설치 후 아래 커맨드를 실행하면 다음과 같은 설명을 볼 수 있다
 
-   ~~~ shell
+~~~ shell
 $ pip show tensorflow  
 ~~~
 
@@ -33,9 +33,12 @@ $ pip show tensorflow
    > Summary: **TensorFlow helps the tensors flow**  
 
 ---
+<br />
 
 ## 기본 용어
+
 <br />
+
 ### 오퍼레이션(Operation)
 
 - 그래프 상의 노드는 오퍼레이션으로 불린다
@@ -58,6 +61,7 @@ $ pip show tensorflow
 - 메모리 상에서 텐서를 저장하는 버퍼 역할을 한다
 
 ---
+<br />
 
 ## (거의) 모든 것은 operation !
 
@@ -136,6 +140,6 @@ with tf.Session() as sess:
 
 ---
 
-<p align="right"><b> Sung Hah Hwang </b></p>
+<p align="right"> Sung Hah Hwang </p>
 
 
