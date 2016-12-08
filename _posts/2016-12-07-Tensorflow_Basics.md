@@ -67,6 +67,8 @@ $ pip show tensorflow
 
 ## (거의) 모든 것은 operation !
 
+<br />
+
 다음 예제들을 통해 텐서플로우와 친해져보도록 하자
 
 ### 예제 1
