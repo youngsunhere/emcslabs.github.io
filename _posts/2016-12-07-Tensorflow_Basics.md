@@ -20,6 +20,7 @@ published: true
 
 
 - 텐서플로우는 기계학습과 딥러닝을 위해 구글에서 만든 오픈소스 소프트웨어 라이브러리  
+- matlab의 simulink와 유사하게 building block 회로 설계하는 것과 유사한 visual programming language
 - C++와 Python을 지원
 - 데이터 플로우 그래프(data flow graph)를 이용해 수치계산(numerical computation)  
 - 데이터 플로우 그래프란 **데이터**의 **흐름**과 **연산**을 node와 edge로 표현한 방향 그래프(directed graph)
@@ -144,6 +145,6 @@ with tf.Session() as sess:
 
 ---
 
-<p align="right"> Sung Hah Hwang </p>
+<p align="right"> Sung Hah Hwang, Hosung Nam </p>
 
 
