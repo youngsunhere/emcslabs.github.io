@@ -13,6 +13,11 @@ featured: true
 published: true
 ---
 
+
+# Tensorflow 
+
+http://ferguson.tistory.com/1
+
 # Tensorflow 기초
 
 
