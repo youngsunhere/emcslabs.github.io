@@ -5,7 +5,7 @@ description: "Fundamentals of Tensorflow"
 headline: "Tensorflow Basics"
 categories: MACHINELEARNING
 tags: 
-  - Machinelearning
+  - Machine Learning
   - Tensorflow
 comments: false
 mathjax: false
