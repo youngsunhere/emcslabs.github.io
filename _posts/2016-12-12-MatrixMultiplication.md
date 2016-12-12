@@ -23,7 +23,7 @@ basis B의 좌표계로 표현하면 [x]<sub>B</sub> = [2;1] 이다.<br>
 
 3m를 cm로 환산하려면 3에 100을 곱하듯이,<br>
 [X]<sub>A</sub>를 [X]<sub>B</sub>로 바꾸어 표현하려면, [X]<sub>A</sub>에 어떤 2-by-2 행렬 P를 곱하면 된다. <br><br>
-행렬이 transformation function이라 함은,<br>
+transformation function인 행렬을 곱한다는 것은<br>
 기존 basis의 좌표계를 다른 basis의 좌표계로 transform 한다는 뜻이다.<br>
 같은 것을 다른 언어로 표현하는 것이다. 
 	
