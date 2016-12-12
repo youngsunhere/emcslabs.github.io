@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Subspace
-description: "What is subspace?"
-headline: "Subspace"
+title: Linear Subspace
+description: "What is linear subspace?"
+headline: "linear subspace"
 categories: Math
 tags: 
   - Math
