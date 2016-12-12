@@ -15,7 +15,7 @@ published: true
 ## Linear Subspace
 
 - N차원 벡터 공간 V
-	- N차원 벡터들의 linear combinations(=덧셈 + ). <br><br>
+	- N차원 벡터들의 linear combinations(=덧셈 + 상수배). <br><br>
 - V의 linear subspace
 	- N차원 벡터공간의 원소 벡터 M개의 linear combinations.
 	- N차원 이하의 공간을 나타내는 V의 부분집합.
