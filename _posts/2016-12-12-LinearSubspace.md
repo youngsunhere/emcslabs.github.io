@@ -26,7 +26,7 @@ published: true
 		- 원점([0;0;0])을 지나는 어떠한 선분
 			- 예시: Span{[1;0;0]}
 		- 원점([0;0;0])
-	- [0;1]은 3차원 V의 subspace를 이룰 수 있나? NO! <br><br>
+	- Q: [0;1]는 3차원 벡터 공간에서 평면을 이루는 subspace의 원소로서 가능하다?  A: NO! <br><br>
 - Why linear?
 	- linear transformation, linear subspace, linear combination... 모든 말 앞에 linear가 붙는다. 이는 곡선이나 곡면같이 휘어진 공간은 관심대상이 아니라는 뜻. 
 	- linearity를 유지시키는 조건
