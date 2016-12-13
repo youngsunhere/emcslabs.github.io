@@ -30,6 +30,12 @@ Quick and easy guide to key ideas in math: [Interactive Mathematics](http://www.
 
 ---
 
+**Programming**
+
+Tutorials of programming languages: [Code Snipcademy](https://code.snipcademy.com/)
+
+---
+
 **Tech**
 
 Facebook Engineering Tech page: [Facebook Engineering Videos](https://www.facebook.com/pg/Engineering/videos/)  
