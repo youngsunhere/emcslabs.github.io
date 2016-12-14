@@ -16,5 +16,5 @@ published: true
 ## Subspace란?
 ### 매트릭스는 여러 subspace를 갖는다. 
 ### 대표적인 것이 Column Space & Null Space.
-#### colA : 매트릭스 A의 column들의 linear combination으로 만들어진 
-#### nullA : A x X = 0 을 만족하는 X를 다 모아놓은 것
+#### colA : 매트릭스 A의 column들로 만들수 있는 모든 linear combination 의 
+#### nullA : A x X = 0 을 만족하는 모든 X의 집합
