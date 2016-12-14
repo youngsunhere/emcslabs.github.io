@@ -12,8 +12,9 @@ mathjax: true
 featured: false
 published: true
 ---
-## 매트릭스는 여러 subspace를 갖는데, 이중에서 대표적인 것이 Column Space & Null Space 이다.
-## 
+
+## Subspac란?
+### 매트릭스는 여러 subspace를 갖는다. 이중에서 대표적인 것이 Column Space & Null Space 이다.
 ###소제목 1
 ###소제목
 ###소제목 1
