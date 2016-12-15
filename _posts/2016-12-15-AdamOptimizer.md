@@ -32,15 +32,15 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
 ![ADAM3]({{ site.url }}/images/adam3.png)  
 <small align="center">*Kingma & Ba, 2014*</small>
 
-## Pseudo-code from Tensorflow [docs](https://www.tensorflow.org/api_docs/python/train/optimizers#AdamOptimizer)
-
+## Pseudo-code from Tensorflow [docs](https://www.tensorflow.org/api_docs/python/train/optimizers#AdamOptimizer)  
+  
 > Construct a new Adam optimizer.  
 > Initialization:  
 >  
 > ~~~  
-> m_0 <- 0 (Initialize initial 1st moment vector)  
-> v_0 <- 0 (Initialize initial 2nd moment vector)  
-> t <- 0 (Initialize timestep)  
+m_0 <- 0 (Initialize initial 1st moment vector)  
+v_0 <- 0 (Initialize initial 2nd moment vector)  
+t <- 0 (Initialize timestep)  
 > ~~~  
 >    
 > The update rule for variable with gradient g uses an optimization described at the end of section2 of the paper:  
