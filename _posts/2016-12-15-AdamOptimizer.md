@@ -32,29 +32,27 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
 ###### from *Kingma & Ba, 2014*
 
 - Pseudo-code from Tensorflow [docs](https://www.tensorflow.org/api_docs/python/train/optimizers#AdamOptimizer)
-    > Construct a new Adam optimizer.
-    > Initialization:
+    > Construct a new Adam optimizer.  
+    > Initialization:  
     >  
-    > ~~~
+    > ~~~  
     > m_0 <- 0 (Initialize initial 1st moment vector)  
     > v_0 <- 0 (Initialize initial 2nd moment vector)  
     > t <- 0 (Initialize timestep)  
-    > ~~~
+    > ~~~  
+      
+    > The update rule for variable with gradient g uses an optimization described at the end of section2 of the paper:  
     >  
-    >The update rule for variable with gradient g uses an optimization described at the end of section2 of the paper:
+    > ~~~  
+    > t <- t + 1  
+    > lr_t <- learning_rate * sqrt(1 - beta2^t) / (1 - beta1^t)  
     >  
-    > ~~~
-    > t <- t + 1
-    > lr_t <- learning_rate * sqrt(1 - beta2^t) / (1 - beta1^t)
-    >
-    > m_t <- beta1 * m_{t-1} + (1 - beta1) * g
-    > v_t <- beta2 * v_{t-1} + (1 - beta2) * g * g
-    > variable <- variable - lr_t * m_t / (sqrt(v_t) + epsilon)
-    > ~~~
-    >  
+    > m_t <- beta1 * m_{t-1} + (1 - beta1) * g.  
+    > v_t <- beta2 * v_{t-1} + (1 - beta2) * g * g  
+    > variable <- variable - lr_t * m_t / (sqrt(v_t) + epsilon)  
+    > ~~~  
     > The default value of 1e-8 for epsilon might not be a good default in general.  
-    > For example, when training an Inception network on ImageNet a current good choice is 1.0 or 0.1.
-    >  
+    > For example, when training an Inception network on ImageNet a current good choice is 1.0 or 0.1.  
     > Note that in dense implement of this algorithm, m_t, v_t and variable will update even if g is zero, but in sparse implement, m_t, v_t and variable will not update in iterations g is zero.
 
 ## Alec Radford's animations for optimization algorithms  
@@ -62,25 +60,25 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
 
 - "Noisy moons: This is logistic regression on noisy moons dataset from sklearn which shows the smoothing effects of momentum based techniques (which also results in over shooting and correction). The error surface is visualized as an average over the whole dataset empirically, but the trajectories show the dynamics of minibatches on noisy data. The bottom chart is an accuracy plot."
 
-![opt_animation1]({{ site.url }}/images/opt_anim1.png)  
+![opt_animation1]({{ site.url }}/images/opt_anim1.gif)  
 
 <br />
 
 - "Beale's function: Due to the large initial gradient, velocity based techniques shoot off and bounce around - adagrad almost goes unstable for the same reason. Algos that scale gradients/step sizes like adadelta and RMSProp proceed more like accelerated SGD and handle large gradients with more stability."
 
-![opt_animation2]({{ site.url }}/images/opt_anim2.png)  
+![opt_animation2]({{ site.url }}/images/opt_anim2.gif)  
 
 <br />
 
 - "Long valley: Algos without scaling based on gradient information really struggle to break symmetry here - SGD gets no where and Nesterov Accelerated Gradient / Momentum exhibits oscillations until they build up velocity in the optimization direction. Algos that scale step size based on the gradient quickly break symmetry and begin descent."
 
-![opt_animation3]({{ site.url }}/images/opt_anim3.png)  
+![opt_animation3]({{ site.url }}/images/opt_anim3.gif)  
 
 <br />
 
 - "Saddle point: Behavior around a saddle point. NAG/Momentum again like to explore around, almost taking a different path. Adadelta/Adagrad/RMSProp proceed like accelerated SGD."
 
-![opt_animation4]({{ site.url }}/images/opt_anim4.png)  
+![opt_animation4]({{ site.url }}/images/opt_anim4.gif)  
 
 <br />
 
