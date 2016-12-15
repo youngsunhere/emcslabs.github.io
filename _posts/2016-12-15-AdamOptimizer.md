@@ -51,6 +51,7 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
     > v_t <- beta2 * v_{t-1} + (1 - beta2) * g * g  
     > variable <- variable - lr_t * m_t / (sqrt(v_t) + epsilon)  
     > ~~~  
+
     > The default value of 1e-8 for epsilon might not be a good default in general.  
     > For example, when training an Inception network on ImageNet a current good choice is 1.0 or 0.1.  
     > Note that in dense implement of this algorithm, m_t, v_t and variable will update even if g is zero, but in sparse implement, m_t, v_t and variable will not update in iterations g is zero.
