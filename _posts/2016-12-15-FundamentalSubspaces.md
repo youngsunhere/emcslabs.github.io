@@ -53,7 +53,7 @@ R<sup>n</sup>과 R<sup>m</sup>에는 무한한 subspace가 존재하는데, <br>
 	  = A의 모든 행벡터들과 x는 cosine similarity가 0이다. <br>
 	  = A의 모든 행벡터들과 x는 orthogonal하다. <br>
 	  = A의 행벡터들이 span하는 row space와 x는 orthogonal하다. <br>
-	  = A<sup>T</sup>의 열벡터들이 span하는 column space와 x는 orthogonal complement이다.<br>
+	  = A<sup>T</sup>의 열벡터들이 span하는 column space와 x는 orthogonal complement이다.<br>
 	  = N(A)&perp;C(A<sup>T</sup>)
 	- A의 열벡터가 linearly independent하다. <br> 
 	  = nullspace에는 0벡터 하나만 존재한다. <br>
