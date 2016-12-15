@@ -29,7 +29,7 @@ basis B의 좌표계로 표현하면 [x]<sub>B</sub> = [2;1] 이다.<br>
 그렇다면 A<sup>-1</sup>BAx의 의미는 무엇일까?<br>
 A가 change of basis matrix, B는 모종의 transformation을 일으키는 matrix라고 보면 된다.<br>
 1) Ax <- x를 A의 basis 좌표계로 표현. <br>
-2) BAx <- [x]<sub>A</sub>에 rotation, reflection 과 같은 transformation을 함.
+2) BAx <- [x]<sub>A</sub>에 rotation, reflection 과 같은 transformation을 함. <br>
 3) A<sup>-1</sup>BAx <- transformation 이후의 결과를 기존 basis 상태로 돌려 둠.<br>
 <br>
 역행렬 A<sup>-1</sup>의 역할이란 3)에서 밝혔듯 바뀌어진 basis를 되돌려 놓는 것이다. 
