@@ -14,8 +14,8 @@ published: true
 
 ## Fundamental Subspaces
 
-m-by-n 행렬 A은 n차원 공간에서의 좌표값을 m차원 공간에서의 좌표값으로 transform한다.<br>
-n차원 공간 R<sup>n</sup>과 m차원 공간 R<sup>m</sup>에는 무한한 subspace가 존재한다. <br>
+m-by-n 행렬 A은 n차원 공간 <sup>n</sup>에서의 좌표값을 m차원 공간 R<sup>m</sup>에서의 좌표값으로 transform한다.<br>
+R<sup>n</sup>과 R<sup>m</sup>에는 무한한 subspace가 존재하는데, <br>
 그 중 4가지 fundamental subspaces를 알아야 한다.
 
 - R<sup>m</sup>의 2가지 fundamental subspaces
@@ -53,7 +53,7 @@ n차원 공간 R<sup>n</sup>과 m차원 공간 R<sup>m</sup>에는 무한한 sub
 	  = A의 모든 행벡터들과 x는 cosine similarity가 0이다. <br>
 	  = A의 모든 행벡터들과 x는 orthogonal하다. <br>
 	  = A의 행벡터들이 span하는 row space와 x는 orthogonal하다. <br>
-	  = A<sup>T</sup>의 열벡터들이 span하는 column space와 x는 orthogonal하다.<br>
+	  = A<sup>T</sup>의 열벡터들이 span하는 column space와 x는 orthogonal complement이다.<br>
 	  = N(A)&perp;C(A<sup>T</sup>)
 	- A의 열벡터가 linearly independent하다. <br> 
 	  = nullspace에는 0벡터 하나만 존재한다. <br>
@@ -63,6 +63,6 @@ n차원 공간 R<sup>n</sup>과 m차원 공간 R<sup>m</sup>에는 무한한 sub
 	  따라서 nullspace에 0이 아닌 벡터가 존재한다면 종속변수가 독립변수에 의해 설명되지 않는 면이 있다는 것을 의미한다. (noise가 없다고 가정했을 때) 
 	  
 
-- N(A)&perp;C(A<sup>T</sup>)와 같은 이유로 C(A)&perp;N(A<sup>T</sup>).
-	
+- N(A)&perp;C(A<sup>T</sup>)와 같은 이유로 C(A)&perp;N(A<sup>T</sup>)
+
 <p align="right"> Yeonjung Hong <p>
