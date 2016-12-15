@@ -32,6 +32,7 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
 ###### from *Kingma & Ba, 2014*
 
 - Pseudo-code from Tensorflow [docs](https://www.tensorflow.org/api_docs/python/train/optimizers#AdamOptimizer)
+
     > Construct a new Adam optimizer.  
     > Initialization:  
     >  
