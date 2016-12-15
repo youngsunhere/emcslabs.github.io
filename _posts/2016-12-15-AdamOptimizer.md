@@ -29,7 +29,7 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
 ![ADAM2]({{ site.url }}/images/adam2.png)  
 <br />
 ![ADAM3]({{ site.url }}/images/adam3.png)  
-###### from *Kingma & Ba, 2014*
+<small>*Kingma & Ba, 2014*</small>
 
 - Pseudo-code from Tensorflow [docs](https://www.tensorflow.org/api_docs/python/train/optimizers#AdamOptimizer)
 
@@ -41,7 +41,7 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
     > v_0 <- 0 (Initialize initial 2nd moment vector)  
     > t <- 0 (Initialize timestep)  
     > ~~~  
-      
+    >    
     > The update rule for variable with gradient g uses an optimization described at the end of section2 of the paper:  
     >  
     > ~~~  
@@ -52,13 +52,13 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
     > v_t <- beta2 * v_{t-1} + (1 - beta2) * g * g  
     > variable <- variable - lr_t * m_t / (sqrt(v_t) + epsilon)  
     > ~~~  
-
+    >  
     > The default value of 1e-8 for epsilon might not be a good default in general.  
     > For example, when training an Inception network on ImageNet a current good choice is 1.0 or 0.1.  
     > Note that in dense implement of this algorithm, m_t, v_t and variable will update even if g is zero, but in sparse implement, m_t, v_t and variable will not update in iterations g is zero.
 
-## Alec Radford's animations for optimization algorithms  
-### (unfortunately no Adam...)
+## Alec Radford's animations for  
+## optimization algorithms (unfortunately no Adam...)  
 
 - "Noisy moons: This is logistic regression on noisy moons dataset from sklearn which shows the smoothing effects of momentum based techniques (which also results in over shooting and correction). The error surface is visualized as an average over the whole dataset empirically, but the trajectories show the dynamics of minibatches on noisy data. The bottom chart is an accuracy plot."
 
