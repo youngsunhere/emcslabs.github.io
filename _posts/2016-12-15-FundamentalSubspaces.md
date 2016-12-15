@@ -44,7 +44,7 @@ R<sup>n</sup>과 R<sup>m</sup>에는 무한한 subspace가 존재하는데, <br>
 	  = A의 n개의 열벡터가 linearly independent하다.<br>
 	  = A의 rank가 n이다. (<-full rank)<br>
 	  = A의 column space = R<sup>m</sup>
-</br>
+<br>
 
 - The nullspace of A
 	- Ax=0를 만족하는 모든 n차원 벡터 x의 집합이다. (이 때 우항의 0은 상수가 아니라 m차원 0벡터)
@@ -61,7 +61,7 @@ R<sup>n</sup>과 R<sup>m</sup>에는 무한한 subspace가 존재하는데, <br>
 	- 통계적 관점에서, nullspace란 모든 샘플에서 구한 독립변수 값에 파라미터 x를 곱해주면 결과가 전부 0이 나오게끔 하는 파라미터 x의 집합이다. <br>
 	  따라서 nullspace에 0이 아닌 벡터가 존재한다면 종속변수가 독립변수에 의해 설명되지 않는 면이 있다는 것을 의미한다. (noise가 없다고 가정했을 때) 
 	
-</br>
+<br>
 
 - N(A)&perp;C(A<sup>T</sup>)와 같은 이유로 C(A)&perp;N(A<sup>T</sup>)
 
