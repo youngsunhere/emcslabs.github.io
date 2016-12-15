@@ -26,9 +26,12 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
 
 ![ADAM1]({{ site.url }}/images/adam1.png)    
 <br />
+
 ![ADAM2]({{ site.url }}/images/adam2.png)  
 <br />
+
 ![ADAM3]({{ site.url }}/images/adam3.png)  
+
 <small>*Kingma & Ba, 2014*</small>
 
 - Pseudo-code from Tensorflow [docs](https://www.tensorflow.org/api_docs/python/train/optimizers#AdamOptimizer)
@@ -65,19 +68,16 @@ $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
 ![opt_animation1]({{ site.url }}/images/opt_anim1.gif)  
 
 <br />
-
 - "Beale's function: Due to the large initial gradient, velocity based techniques shoot off and bounce around - adagrad almost goes unstable for the same reason. Algos that scale gradients/step sizes like adadelta and RMSProp proceed more like accelerated SGD and handle large gradients with more stability."
 
 ![opt_animation2]({{ site.url }}/images/opt_anim2.gif)  
 
 <br />
-
 - "Long valley: Algos without scaling based on gradient information really struggle to break symmetry here - SGD gets no where and Nesterov Accelerated Gradient / Momentum exhibits oscillations until they build up velocity in the optimization direction. Algos that scale step size based on the gradient quickly break symmetry and begin descent."
 
 ![opt_animation3]({{ site.url }}/images/opt_anim3.gif)  
 
 <br />
-
 - "Saddle point: Behavior around a saddle point. NAG/Momentum again like to explore around, almost taking a different path. Adadelta/Adagrad/RMSProp proceed like accelerated SGD."
 
 ![opt_animation4]({{ site.url }}/images/opt_anim4.gif)  
