@@ -42,7 +42,7 @@ n차원 공간 R<sup>n</sup>과 m차원 공간 R<sup>m</sup>에는 무한한 sub
 	  = m차원 좌표계로 표현한 b는 n차원 좌표계로도 표현할 수 있다. <br>
 	  = A는 square matrix이고 역행렬이 존재한다.<br>
 	  = A의 n개의 열벡터가 linearly independent하다.<br>
-	  = A의 rank가 n이다. (<-full rank)
+	  = A의 rank가 n이다. (<-full rank)<br>
 	  = A의 column space = R<sup>m</sup>
 
 
