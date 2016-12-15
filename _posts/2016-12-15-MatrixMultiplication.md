@@ -32,7 +32,7 @@ A가 change of basis matrix, B는 모종의 transformation을 일으키는 matri
 2) BAx <- [x]<sub>A</sub>에 rotation, reflection 과 같은 transformation을 함.
 3) A<sup>-1</sup>BAx <- transformation 이후의 결과를 기존 basis 상태로 돌려 둠.<br>
 <br>
-* 역행렬 A<sup>-1</sup>의 역할이란 3)에서 밝혔듯 바뀌어진 basis를 되돌려 놓는 것이다. 
+역행렬 A<sup>-1</sup>의 역할이란 3)에서 밝혔듯 바뀌어진 basis를 되돌려 놓는 것이다. 
 
 	
 	
