@@ -20,7 +20,7 @@ published: true
 - 각 패러미터에 대한 adaptive learning rate를 설정한다
 - Tensorflow MNIST 튜토리얼에서 softmax classifier를 사용하면 91% 정확도의 모델을 구축 가능하나, 동일한 환경에서 Adam optimizer로 바꿀 경우 96% 정확도의 모델을 얻을 수 있다
 - AdaGrad(works well with sparse gradients)와 RMSProp(works well in non-staionary settings) 의 장점을 합침
-- **gradient**와 그것의 제곱인 **magnitude**의 exponentially decaying (moving) average를 취하고 parameter update에 사용한다
+- **gradient**와 그것의 제곱인 **magnitude**의 exponentially decaying (moving) average를 취하고 parameter update에 사용한다  
 
 $$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
 
