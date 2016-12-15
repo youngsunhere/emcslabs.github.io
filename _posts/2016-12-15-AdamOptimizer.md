@@ -12,7 +12,8 @@ mathjax: true
 featured: true
 published: true
 ---
-## Adam Optimizer
+
+## Overview
 
 - [Kingma, Diederik P. and Ba, Jimmy. **Adam**: A method for stochastic optimization. ICLR, 2014.](https://arxiv.org/pdf/1412.6980v8.pdf)
 - **_Ada_**ptive **_M_**oment Estimation 의 약자
@@ -22,19 +23,16 @@ published: true
 - AdaGrad(works well with sparse gradients)와 RMSProp(works well in non-staionary settings) 의 장점을 합침
 - **gradient**와 그것의 제곱인 **magnitude**의 exponentially decaying (moving) average를 취하고 parameter update에 사용한다  
 
-$$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$
+$$ \sqrt{\frac{average\;gradient}{average\;squared\;gradient}} $$  
 
 ![ADAM1]({{ site.url }}/images/adam1.png)    
 <br />
-
 ![ADAM2]({{ site.url }}/images/adam2.png)  
 <br />
-
 ![ADAM3]({{ site.url }}/images/adam3.png)  
+<small align="center">*Kingma & Ba, 2014*</small>
 
-<small>*Kingma & Ba, 2014*</small>
-
-- Pseudo-code from Tensorflow [docs](https://www.tensorflow.org/api_docs/python/train/optimizers#AdamOptimizer)
+## Pseudo-code from Tensorflow [docs](https://www.tensorflow.org/api_docs/python/train/optimizers#AdamOptimizer)
 
     > Construct a new Adam optimizer.  
     > Initialization:  
