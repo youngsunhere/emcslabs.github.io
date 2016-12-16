@@ -18,7 +18,7 @@ published: true
 - 이는  x<sup>T</sup>y와도 같다. 
 	- x<sup>T</sup>란?
 		- 1개의 n차원 벡터 -->  n개의 1차원 벡터의 나열.
-		- n차원에서 1차원으로의 transformation matrix.
+		- n차원 인풋을 1차원 아웃풋으로 transform하는 matrix.
 	- x<sup>T</sup>y란?
 		1. x<sup>T</sup>는 y를 x에 **projection**시킨다. <br>
 				이 때문에,<br>
