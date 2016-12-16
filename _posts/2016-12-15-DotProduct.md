@@ -17,7 +17,7 @@ published: true
 - dot product는 차원이 같은 두 n차원 벡터 x, y를 element-wise 곱하여 더한 결과이다(상수값).
 - 이는  x<sup>T</sup>y와도 같다. 
 	- x<sup>T</sup>란?
-		- 1개의 n차원 벡터를 n개의 1차원 벡터의 나열로 바꾼 것.
+		- 1개의 n차원 벡터 -->  n개의 1차원 벡터의 나열.
 		- n차원에서 1차원으로의 transformation matrix.
 	- x<sup>T</sup>y란?
 		1. x<sup>T</sup>는 y를 x에 **projection**시킨다. <br>
