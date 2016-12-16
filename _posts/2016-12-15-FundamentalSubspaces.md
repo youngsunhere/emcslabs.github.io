@@ -34,7 +34,8 @@ R<sup>n</sup>과 R<sup>m</sup>에는 무한한 subspace가 존재하는데, <br>
 	- A의 열벡터 n개가 span하는 공간이다.
 	- A에 n차원 벡터 x를 곱한 결과는 A의 열벡터의 linear combination이므로 b 역시 A의 column space 안에 존재한다. 
 	- column space = range
-	- column space의 차원 = column space의 basis에 들어있는 벡터 수 <br>
+	- column space의 차원 <br>
+	  = column space의 basis에 들어있는 벡터 수 <br>
 	  = linearly independent한 열벡터 수 <br>
 	  = 행렬의 rank
 	- Ax=b의 해가 존재한다 <br>
@@ -43,7 +44,7 @@ R<sup>n</sup>과 R<sup>m</sup>에는 무한한 subspace가 존재하는데, <br>
 	  = A는 square matrix이고 역행렬이 존재한다.<br>
 	  = A의 n개의 열벡터가 linearly independent하다.<br>
 	  = A의 rank가 n이다. (<-full rank)<br>
-	  = A의 column space = R<sup>m</sup>
+	  = A의 column space=R<sup>m</sup>
 <br>
 
 - The nullspace of A
