@@ -14,7 +14,7 @@ published: true
 
 ## Fundamental Subspaces
 
-m-by-n 행렬 A은 n차원 공간 <sup>n</sup>에서의 좌표값을 m차원 공간 R<sup>m</sup>에서의 좌표값으로 transform한다.<br>
+m-by-n 행렬 A은 n차원 공간 R<sup>n</sup>에서의 좌표값을 m차원 공간 R<sup>m</sup>에서의 좌표값으로 transform한다.<br>
 R<sup>n</sup>과 R<sup>m</sup>에는 무한한 subspace가 존재하는데, <br>
 그 중 4가지 fundamental subspaces를 알아야 한다.
 
