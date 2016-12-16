@@ -14,7 +14,7 @@ published: true
 
 ## Dot Product
 
-- dot product는 차원이 같은 두 n차원 벡터 x, y를 element-wise 곱하여 더한 결과의 상수값이다.
+- dot product는 차원이 같은 두 n차원 벡터 x, y를 element-wise 곱하여 더한 결과이다(상수값).
 - 이는  x<sup>T</sup>y와도 같다. 
 	- x<sup>T</sup>란?
 		- 1개의 n차원 벡터를 n개의 1차원 상수의 나열로 바꾼 것.
