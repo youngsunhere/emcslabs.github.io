@@ -30,9 +30,8 @@ published: true
 <br>
 
 - dot product = inner product = "project then scale"
-
-
-	
+<br>
+따라서, 두 벡터의 dot product는 1)벡터 간의 각도 2)두 벡터의 길이 정보를 담고 있다. 	
 	
 	
 <p align="right"> Yeonjung Hong <p>
