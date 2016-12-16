@@ -25,7 +25,7 @@ published: true
 				- x와 y가 &ang;90: dot product = 0<br>
 				- x와 y의 방향이 비슷: dot product &uArr;<br>
 				- x와 y의 방향이 다름: dot product &dArr; (&ang;90 넘으면 음수)
-		2. x projected onto x에 project된 y를 x길이만큼 **scale**한다. 
+		2. x에 project된 y를 x길이만큼 **scale**한다. 
 
 <br>
 
