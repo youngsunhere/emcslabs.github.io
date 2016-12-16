@@ -21,9 +21,9 @@ published: true
 		- n차원에서 1차원으로의 transformation matrix.
 	- x<sup>T</sup>y란?
 		1. x<sup>T</sup>는 y를 x에 **projection**시킨다. <br>
-				이 때문에,
-				- x와 y가 &ang;90: dot product = 0
-				- x와 y의 방향이 비슷: dot product &uArr;
+				이 때문에,<br>
+				- x와 y가 &ang;90: dot product = 0<br>
+				- x와 y의 방향이 비슷: dot product &uArr;<br>
 				- x와 y의 방향이 다름: dot product &dArr; (&ang;90 넘으면 음수)
 		2. x projected onto x에 project된 y를 x길이만큼 **scale**한다. 
 
