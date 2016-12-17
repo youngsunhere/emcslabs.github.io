@@ -64,7 +64,7 @@ published: true
 	  $p = a{a^\mathrm{T}b \over a^\mathrm{T}a}$<br>
 	  1) a<sup>T</sup>b: b를 a에 project하고 a길이만큼 scale<br>
 	  2) a<sup>T</sup>a: a길이만큼 unscale<br>
-	  $P = {{a}{a}^\mathrm{T} \over {a}^\mathrm{T}{a}}$<br>
+	  $P = {aa^\mathrm{T} \over a^\mathrm{T}a}$<br>
 	  projection matrix는 a의 외적/내적
 	  
 	- 벡터 b를 range(A)에 project 하는 P<br>
