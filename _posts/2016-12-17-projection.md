@@ -61,11 +61,12 @@ published: true
 
 - orthogonal projector P 공식
 	1. 벡터 b를 벡터 a 위에 project 하는 P<br>
-	  $p = a{a^\mathrm{T}b \over a^\mathrm{T}a}$<br>
+	  $P = {aa^\mathrm{T} \over a^\mathrm{T}a}$ <br>
+	- projection matrix는 a의 외적/내적
+	  $Pb = a{a^\mathrm{T}b \over a^\mathrm{T}a}$<br>
 	- a<sup>T</sup>b: b를 a에 project하고 a길이만큼 scale
 	- a<sup>T</sup>a: a길이만큼 unscale
-	  $P = {aa^\mathrm{T} \over a^\mathrm{T}a}$ <br>
-	  projection matrix는 a의 외적/내적
+	  
 	2. 벡터 b를 range(A)에 project 하는 P<br>
 	  $P = A(A^\mathrm{T}A)^\mathrm{-1}A^\mathrm{T}$<br>
 	  
