@@ -66,6 +66,9 @@ R<sup>n</sup>과 R<sup>m</sup>에는 무한한 subspace가 존재하는데, <br>
 	
 <br>
 
-- N(A)&perp;C(A<sup>T</sup>)와 같은 이유로 C(A)&perp;N(A<sup>T</sup>)
+- N(A)&perp;C(A<sup>T</sup>)와 같은 이유로 C(A)&perp;N(A<sup>T</sup>
+<br>
+
+- 모든 행렬은 row space에서 column space로의 transformation matrix다.
 
 <p align="right"> Yeonjung Hong <p>
