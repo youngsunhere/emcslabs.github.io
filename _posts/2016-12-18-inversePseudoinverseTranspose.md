@@ -34,10 +34,6 @@ published: true
 		  2. square matrix
 		- Tip1. orthogonal 벡터들은 linearly independent
 		- Tip2. orthonormal vectors = orthogonal unit vectors
-   - orthogonal projector P
-       - P = P<sup>T</sup> = P<sup>-1</sup>
-       - PP<sup>T</sup> = P<sup>T</sup>P = I
-       - P의 column space = row space
 - n-by-m A<sup>+</sup>
 	- A가 singular 행렬일 때, A<sup>-1</sup>의 대체물이 A<sup>+</sup>
 	- column space에서 row space로 transform 할 수 있는 벡터들에 한하여 inversion 수행
