@@ -19,8 +19,7 @@ published: true
 
 - n-by-m A<sup>T</sup>
 	- A의 column space에서 row space로 공간은 transform
-	- 하지만 column space에 있는 벡터를 row space로 transform하는 것까지는 못함
-
+	- 하지만 column space에 있는 벡터를 row space로 transform하는 것까지는 못함 (?)
 - m-by-m A<sup>-1</sup>
 	- rank=m=n일 때만(full rank & square), 역행렬 존재.
 	- nullspace에 원점 밖에 없는, nonsingular 행렬. <br>
