@@ -12,7 +12,7 @@ featured: false
 published: true
 ---
 
-## QR factorization
+## QR factorization (=decomposition)
 
 열벡터가 linearly independent한 m-by-n 행렬 A를 Q와 R, 2개의 행렬로 분해하는 방법이다. <br>
 
