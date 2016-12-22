@@ -26,7 +26,8 @@ published: true
 				- x와 y의 방향이 비슷: dot product &uArr;<br>
 				- x와 y의 방향이 다름: dot product &dArr; (&ang;90 넘으면 음수)
 		2. x에 project된 y를 x길이만큼 **scale**한다. 
-
+	- x<sup>T</sup>x
+		- x를 x에 project한 뒤, x만큼 scale => **x 길이의 제곱**
 <br>
 
 - dot product = inner product = "project then scale"
