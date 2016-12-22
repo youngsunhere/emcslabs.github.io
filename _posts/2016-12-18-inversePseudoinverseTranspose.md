@@ -36,11 +36,5 @@ published: true
 		- A<sup>+</sup>Ax=x는 nullspace에 있는 x에 대해 성립하지 않는다. 
 		- 0으로부터 nullspace의 모든 벡터를 복구하기는 불가능하기 때문이다. 
 
-	
 
-- 만약 A<sup>T</sup>=A<sup>-1</sup>라면?
-	- A가 "orthogonal matrix"라는 뜻이다. 
-		- [misnomer] orthogonal matrix란?
-		  1. square matrix 이면서 (m=n)
-		  2. orthonormal columns로 이루어짐 (길이가 1인 열벡터가 서로 직교)
 <p align="right"> Yeonjung Hong <p>
