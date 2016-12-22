@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Fundamental Subspaces
-description: "fundamental subspaces"
-headline: "Fundamental Subspaces"
+title: Column Space, Nullspace, Invertibility
+description: "Column Space, Nullspace, Invertibility"
+headline: "Column Space, Nullspace, Invertibility"
 categories: Math
 tags: 
   - Math
@@ -12,61 +12,43 @@ featured: false
 published: true
 ---
 
-## Fundamental Subspaces
+## Column Space, Nullspace, Invertibility
 
-m-by-n 행렬 A은 n차원 공간 R<sup>n</sup>에서의 좌표값을 m차원 공간 R<sup>m</sup>에서의 좌표값으로 transform한다.<br>
-R<sup>n</sup>과 R<sup>m</sup>에는 무한한 subspace가 존재하는데, <br>
-그 중 4가지 fundamental subspaces를 알아야 한다.
+m-by-n 행렬 A과 m차원 벡터 b가 있다. <br> 
+여기에 n차원 미지수 벡터 x를 도입하면 Ax=b라는 방정식을 세울 수 있다. <br> 
+Ax=b는 다음과 같이 읽을 수 있다. <br> 
+"A는 **x**를 A의 **column space에 있는 b**로 transform한다."<br>
+여기서 A의 column space란, A의 열벡터가 span하는 subspace이다.<br>
+b는 A의 열벡터에 x의 원소를 각각 곱하여 더한 것으로서 열벡터의 linear combination이므로, A의 column space 안에 존재한다.<br><br>
+함수로서의 A를 깊이 이해하기 위해서는 함수의 기본 성질을 이해해야 한다. <br>
+함수는 하나 이상의 입력에 대하여 하나의 출력만 내놓는다. 즉 일대일 매핑, 다대일 매핑은 가능하지만 일대다 매핑은 불가능하다.<br>
+역함수란 출력에서 입력으로의 역매핑을 하는데, 원래 함수가 다대일 매핑이면 역으로는 일대다 매핑이므로 역함수 성립이 불가능하다. <br>
+따라서 일대일 매핑인 함수만 역함수를 갖는다.<br><br>
+행렬 A 또한 일대일 매핑을 할 때만 역행렬을 갖는다.  <br>
+A가 일대일 매핑을 한다는 뜻은, Ax=b에서 A가 어떤 두 입력 벡터 x도 A의 column space에 있는 동일한 벡터 b로 transform하지 않는다는 것이다.<br>
+<br>
+반면, A가 0벡터 뿐 아니라 0이 아닌 입력 벡터 x를 column space에 있는 0벡터로 transform한다면, A는 다대일 매핑을 하고 있으므로 역행렬이 존재하지 않는다.<br>
+다른 말로 표현하면, Ax=0에 0이 아닌 해가 존재할 때 A는 역행렬이 없다. <br>
+이 때 Ax=0을 만족시키는 x는 A의 nullspace를 구성한다. 
 
-- R<sup>m</sup>의 2가지 fundamental subspaces
-	- The column space of A = C(A)
-	- The left nullspace of A = N(A<sup>T</sup>)
+# 정리
 
-- R<sup>n</sup>의 2가지 fundamental subspaces
-	- The nullspace of A = N(A)
-	- The row space of A = C(A<sup>T</sup>)
-		
-4가지 중 column space와 nullspace만 제대로 이해하면 나머지 두 subspace는 절로 이해된다. 
-
+m-by-n 행렬 A에 대하여, <br><br>
 - The column space of A
-	- A의 열벡터 n개가 span하는 공간이다.
-	- A에 n차원 벡터 x를 곱한 결과는 A의 열벡터의 linear combination이므로 b 역시 A의 column space 안에 존재한다. (?)
+	- A의 열벡터가 span하는 공간이다.
 	- column space = range
-	- column space의 차원 <br>
-	  = column space의 basis에 들어있는 벡터 수 (?)<br>
-	  = linearly independent한 열벡터 수 <br>
-	  = 행렬 A의 rank
-	- Ax=b의 해가 존재한다 (?)<br>
-	  = b가 A의 column space에 들어있다. <br>
-	  = m차원 좌표계로 표현한 b는 n차원 좌표계로도 표현할 수 있다. (??)<br>
-	  = A는 square matrix이고 역행렬이 존재한다.(?)<br>
-	  = A의 n개의 열벡터가 linearly independent하다.<br>
-	  = A의 rank가 n이다. (<-full rank) (??)<br>
-	  = A의 column space=R<sup>m</sup><br>
-	  = m=n	 (?)
- 
-<br>
-
 - The nullspace of A
-	- Ax=0를 만족하는 모든 n차원 벡터 x의 집합이다. (이 때 우항의 0은 상수가 아니라 m차원 0벡터)
-	- Ax=0를 만족하는 벡터 x는 A의 행벡터들과의 inner product가 0이다. (?) <br>
-	  = A의 모든 행벡터들과 x는 cosine similarity가 0이다. (?)<br>
-	  = A의 모든 행벡터들과 x는 orthogonal하다. (?)<br>
-	  = A의 행벡터들이 span하는 row space와 x는 orthogonal하다. <br>
-	  = A<sup>T</sup>의 열벡터들이 span하는 column space와 x는 orthogonal complement이다.<br>
-	  = N(A)&perp;C(A<sup>T</sup>)
-	- A의 열벡터가 linearly independent하다. <br>
-	  = nullspace에는 0벡터 하나만 존재한다. <br>
-	  = Ax=0의 해는 0벡터 외엔 없다. <br>
-	  = A는 square matrix이고 역행렬이 존재한다. 
-	- 통계적 관점에서, nullspace란 모든 샘플에서 구한 독립변수 값에 파라미터 x를 곱해주면 결과가 전부 0이 나오게끔 하는 파라미터 x의 집합이다. <br>
-	  따라서 nullspace에 0이 아닌 벡터가 존재한다면 종속변수가 독립변수에 의해 설명되지 않는 면이 있다는 것을 의미한다. (noise가 없다고 가정했을 때) (??)
-	
-<br>
+	- Ax=0를 만족하는 모든 n차원 벡터 x의 집합이다. (이 때 우항의 0은 상수가 아니라 m차원 0벡터)<br>
 
-- N(A)&perp;C(A<sup>T</sup>)와 같은 이유로 C(A)&perp;N(A<sup>T</sup>)
-<br>
+방정식 Ax=b에 대하여, <br><br>
+- 행렬 A는 입력 벡터 x를 linear combination을 통해 A의 column space에 있는 벡터 b로 transform한다.
+- A의 역행렬이 존재한다. <br>
+  = A가 일대일 매핑을 한다.<br>
+  = Ax=b의 모든 m차원 벡터 b에 대하여 유일한 해 x가 존재한다.<br>
+- A의 역행렬이 존재하지 않는다. <br>
+  = Ax=0의 해가 0벡터 말고도 존재한다.<br>
+  = A가 다대일 매핑을 한다. <br>
+  = A의 nullspace에 0벡터가 아닌 다른 벡터도 존재한다. 
 
-- 모든 행렬은 row space에서 column space로의 transformation matrix다.
 
 <p align="right"> Yeonjung Hong <p>
