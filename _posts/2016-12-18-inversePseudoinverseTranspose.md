@@ -12,31 +12,35 @@ featured: false
 published: true
 ---
 
-## Transpose, Inverse, Pseudoinverse 
 
-- m-by-n A
-	- A의 row space에 있는 벡터를 column space로 transform
+## m-by-n 행렬 A에 대한 A<sup>-1</sup>, A<sup>T</sup>, A<sup>+</sup> 정리
 
-- n-by-m A<sup>T</sup>
-	- A의 column space에서 row space로 공간은 transform
-	- 하지만 column space에 있는 벡터를 row space로 transform하는 것까지는 못함 (?)
-- m-by-m A<sup>-1</sup>
-	- rank=m=n일 때만(full rank & square), 역행렬 존재.
-	- nullspace에 원점 밖에 없는, nonsingular 행렬. <br>
-	  = 원점으로 transform시킬 수 있는 벡터는 0벡터뿐.
-	- A의 column space에 있는 벡터를 row space로 transform 할 수 있음. 
+- A
+	- A의 **row space에 있는 벡터**를 **column space에 있는 벡터**로 transform하는 함수
 
-- A<sup>T</sup>=A<sup>-1</sup>
-	- A가 orthogonal matrix일 때, A<sup>T</sup>=A<sup>-1</sup>가 성립한다. 
-		- orthogonal matrix 
-		  1. orthonormal columns로 이루어짐 (?)
-		  2. square matrix (?)
-		- Tip1. orthogonal 벡터들은 linearly independent (?)
-		- Tip2. orthonormal vectors = orthogonal unit vectors
-- n-by-m A<sup>+</sup>
-	- A가 singular 행렬일 때, A<sup>-1</sup>의 대체물이 A<sup>+</sup>
-	- column space에서 row space로 transform 할 수 있는 벡터들에 한하여 inversion 수행
-	- left nullspace에 있는 벡터들은 내버려 둠
+- A<sup>-1</sup>
+	- A의 **column space에 있는 벡터**를 **row space에 있는 벡터**로 transform하는 함수. 
+		- A가 full rank이고 정사각 행렬일 때(rank=m=n), A<sup>-1</sup> 존재함.
+		- A<sup>-1</sup>가 존재한다.<br>
+		  = A는 nonsingular다.<br>
+		  = A의 nullspace에는 0벡터 뿐이다.
+		  
+- A<sup>T</sup>
+	- A의 **column space에서 row space로 공간은 이동**시켜주지만 개별 벡터간 **일대일 역매핑은 못한다**. 
+
+
+- A<sup>+</sup>
+	- A<sup>-1</sup>가 존재하지 않으면 pseudoinverse A<sup>+</sup>를 사용한다.
+	- A<sup>+</sup>는 column space의 벡터들 중 row space에 대응 벡터가 있는 경우에 한하여 inversion을 수행한다.  
+		- A<sup>+</sup>Ax=x는 row space에 있는 x에 대해 성립한다. 
+		- A<sup>+</sup>Ax=x는 nullspace에 있는 x에 대해 성립하지 않는다. 
+		- 0으로부터 nullspace의 모든 벡터를 복구하기는 불가능하기 때문이다. 
+
 	
-	
+
+- 만약 A<sup>T</sup>=A<sup>-1</sup>라면?
+	- A가 "orthogonal matrix"라는 뜻이다. 
+		- [misnomer] orthogonal matrix란?
+		  1. square matrix 이면서 (m=n)
+		  2. orthonormal columns로 이루어짐 (길이가 1인 열벡터가 서로 직교)
 <p align="right"> Yeonjung Hong <p>
