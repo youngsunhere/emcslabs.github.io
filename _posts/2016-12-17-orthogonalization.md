@@ -27,7 +27,7 @@ m-by-n 행렬 A가 orthogonalization을 거쳐 열벡터가 서로 직교하게 
 			- orthonormal 벡터로 구성된 정사각 행렬
 			- Q<sup>T</sup> = Q<sup>-1</sup>
 			- Q는 1)입력 벡터의 길이를 유지하고 2) 입력 벡터들 간의 각도를 유지시킨다.<br>
-			  => Q를 곱해도 벡터의 길이가 유지되므로, 컴퓨터 연산 과정에서 발생하는 반올림 문제(round off error)를 없앤다.	
+3. Orthogonal matrix는 입력 벡터의 길이를 유지하므로, 컴퓨터 연산 과정에서 발생하는 반올림 문제(round off error)를 없앤다.	
 	
 	
 <p align="right"> Yeonjung Hong <p>
