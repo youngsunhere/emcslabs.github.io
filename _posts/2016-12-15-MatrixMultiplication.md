@@ -14,8 +14,8 @@ published: true
 
 ## Matrix Multiplication
 
-벡터 공간 V의 basis에는 여러가지가 있으며, <br>
-그 중 대표적인 것은 서로 직교하면서 길이가 1인 벡터로 구성된 orthonormal basis이다.<br>
+벡터 공간 V의 무한한 bases는 1)원점을 공유하고 2)unit을 다르게 정의한다. <br>
+대표적 basis는 서로 직교하면서 길이가 1인 벡터로 구성된 orthonormal basis이다. (catesian 좌표계를 떠올려라.)<br>
 <br>
 동일 벡터 공간 V의 basis마다 unit의 정의가 다르기 때문에, 하나의 벡터를 basis마다 다르게 표현한다. <br>
 예를 들어, x,y축을 갖는 2차원 공간의 basis A={[1;0],[0;1]}는 벡터 v를 [5;1]로 표현하지만, <br>
