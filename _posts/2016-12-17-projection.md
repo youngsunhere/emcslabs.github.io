@@ -50,8 +50,8 @@ published: true
   4. P = A(A<sup>T</sup>A<sup>)-1</sup>A<sup>T</sup>
 
 - 벡터 b를 벡터 a 위에 project 하는 법
-	- a와 b의 내적을 a의 길이 제곱으로 나눠준다.
-	- $a projected onto b = {aa^\mathrm{T} \over a^\mathrm{T}a}$
+	- a와 b의 내적을 a의 길이 제곱으로 나눠준 만큼을 a에 scale한다.
+	- a projected onto b = ${a^\mathrm{T}b \over a^\mathrm{T}a}a$
 		- a<sup>T</sup>b: b를 a에 project하고 a길이만큼 scale
 		- a<sup>T</sup>a: a길이만큼 unscale
 	
