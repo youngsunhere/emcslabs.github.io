@@ -12,64 +12,48 @@ featured: false
 published: true
 ---
 
-## Projection
+## Projection은 "그림자 만들기" 
 
-- Projection이란, 벡터 v에 손전등을 비추어 어떤 subspace에 그림자가 생기도록 하는 것이다.
-	- 손전등의 불빛 방향과 subspace가 수직을 이루면 orthogonal projection.
-	- 수직을 이루지 않으면 nonorthogonal(=oblique) projection.
-	- projection은 하나의 공간을 두 개의 부분공간 decompose한다. <br>
-	  1) v의 그림자가 생기는 subspace <br>
-	  2) v가 project되는 방향과 일치하는 subspace (?)
-<br>
-- projection은 어디에 쓰이나?
-	1. linear regression (???)
-		- 데이터 A와 b를 가지고 선형 방정식 Ax=b의 해를 구하려 하는데,데이터 내에 오류가 있으면 해를 구할 수가 없다. 
-		- 따라서 데이터 원본을 **가장 덜 손상**시키면서도 **해를 구할 수 있게** 데이터를 변형해야 한다. 
-		- 변형방법: range(A)에 b를 project함 -> b의 그림자와 에러, 그 둘로 쪼개짐
+- Projection이란, 벡터 v에 손전등을 비추어 특정 subspace에 v의 그림자가 생기도록 하는 것이다.
+	- Projection에는 두 가지 종류가 있다.
+		1. 손전등을 특정 subspace에 수직으로 비추는 orthogonal projection
+		2. 손전등을 특정 subspace에 비스듬하게 비추는 nonorthogonal (=oblique) projection 	
+   - 선형대수에서 Orthogonal projection의 비중이 더 크므로, 이하 내용은 orthogonal projection에 대한 것으로 한정하겠다. 
+	
+
+- projection의 쓰임
+	1. 선형 방정식 Ax=b의 해 구하기
+		- Ax=b라는 식은,주어진 데이터 행렬 A와 벡터 b의 인과관계를 벡터 x를 구함으로써 밝히고자 한다. 
+		- 그러나 b가 range(A) 안에 없다면, Ax=b의 해를 구할 수 없다. (거의 모든 경우에 이러하다.)
+		- 해결책은 실제 데이터와의 오류를 최소화하는 x를 찾는 것. 답은 projection에 있다.
+		- 그러한 x를 찾는 방법은 b를 range(A)에 projection하는 것!
 	2. 각종 decomposition의 핵심 도구
 		- QR decomposition 
 		- Singular Value Decomposition
 		- Eignevalue Decomposition
 <br>
-- projector P in general (orthogonal/nonorthogonal projection에 모두 해당) (????)
-	- range(P)에 projection 수행.
-	- Pv <br>
-	  = v projected onto the column space of P. <br>
-	  = range(P)에 비친 v의 그림자.
-	- square matrix
-	- symmetric matrix
-	- not always orthogonal matrix
-	- P<sup>2</sup>=P (<--idempotent)
-	- m-by-m P는 m차원 공간을 원점 밖에 공유하지 않는 complementary 관계의 두 subspace로 분해시킴. 
-		1. range(P) <br>
-		   = null(I-P)<br>
-		   = v의 그림자가 비춰지는 subspace
-		2. null(P) <br>
-		   = range(I-P)<br>
-		   = residual vector Pv-v 가 들어있는 subspace<br>
-		   = range(P)에는 Pv-v의 그림자가 절대 안 생김.
-<br>
-- orthogonal projector P  (????)
-	- range(P)에 수직으로 projection 수행.
-	- P = P<sup>T</sup>
-	- range(P)&perp;null(P) <br>
-	  = the column space of P is equal to the row space of P  <br>
-	  -> symmetric matrix이기 때문
-	- rank = 1
+- projector P
+	- P = P<sup>T</sup> : symmetric matrix, column space=row space
+	- P<sup>2</sup> = P : idempotent matrix, projection을 한 번 하든, 두 번 하든 결과는 똑같다. 
+	- p = Px : 벡터 p는 벡터 x를 range(P)에 projection한 결과이다.
+	- e = x-p : 벡터 e는 x와 x의 그림자 간의 에러이며, P의 nullspace에 속해 있다. 
+	- p&perp;e이므로 range(P)&perp;null(P)
 
 <br>
 
-- orthogonal projector P 공식
-	1. 벡터 b를 벡터 a 위에 project 하는 P<br>
-	  $P = {aa^\mathrm{T} \over a^\mathrm{T}a}$ <br>
-	- projection matrix는 a의 외적/내적<br>
-          $Pb = a{a^\mathrm{T}b \over a^\mathrm{T}a}$
-	- a<sup>T</sup>b: b를 a에 project하고 a길이만큼 scale
-	- a<sup>T</sup>a: a길이만큼 unscale
-	  
-	2. 벡터 b를 range(A)에 project 하는 P<br>
-	  $P = A(A^\mathrm{T}A)^\mathrm{-1}A^\mathrm{T}$<br>
-	  
+- projector P 구하는 법
+  1. Ax=b의 근사해를 구하기 위하여, b를 range(A)에 projection한 것을 Ax<sub>new</sub>라고 하자. A&perp;(b-Ax<sub>new</sub>)이므로 <br>
+     A<sup>T</sup>(b-Ax<sub>new</sub>)=0<br>
+     A<sup>T</sup>Ax<sub>new</sub>=A<sup>T</sup>b
+  2. x<sub>new</sub> = (A<sup>T</sup>A<sup>)-1</sup>A<sup>T</sup>b
+  3. Ax<sub>new</sub> = A(A<sup>T</sup>A<sup>)-1</sup>A<sup>T</sup>b
+  4. P = A(A<sup>T</sup>A<sup>)-1</sup>A<sup>T</sup>
+
+- 벡터 b를 벡터 a 위에 project 하는 법
+	- a와 b의 내적을 a의 길이 제곱으로 나눠준다.
+	- $a projected onto b = {aa^\mathrm{T} \over a^\mathrm{T}a}$
+		- a<sup>T</sup>b: b를 a에 project하고 a길이만큼 scale
+		- a<sup>T</sup>a: a길이만큼 unscale
 	
 	
 	
