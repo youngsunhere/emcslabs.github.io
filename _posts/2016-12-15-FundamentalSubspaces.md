@@ -33,14 +33,16 @@ A가 일대일 매핑을 한다는 뜻은, Ax=b에서 A가 어떤 두 입력 벡
 
 # 정리
 
-m-by-n 행렬 A에 대하여, <br><br>
-- The column space of A
-	- A의 열벡터가 span하는 공간이다.
-	- column space = range
-- The nullspace of A
-	- Ax=0를 만족하는 모든 n차원 벡터 x의 집합이다. (이 때 우항의 0은 상수가 아니라 m차원 0벡터)<br>
+m-by-n 행렬 A에 대하여, <br>
 
-방정식 Ax=b에 대하여, <br><br>
+- The column space of A
+   - A의 열벡터가 span하는 공간이다.
+   - column space = range
+- The nullspace of A
+   - Ax=0를 만족하는 모든 n차원 벡터 x의 집합이다. (이 때 우항의 0은 상수가 아니라 m차원 0벡터)<br>
+
+방정식 Ax=b에 대하여, <br>
+
 - 행렬 A는 입력 벡터 x를 linear combination을 통해 A의 column space에 있는 벡터 b로 transform한다.
 - A의 역행렬이 존재한다. <br>
   = A가 일대일 매핑을 한다.<br>
