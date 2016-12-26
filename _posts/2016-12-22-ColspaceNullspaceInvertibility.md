@@ -34,6 +34,7 @@ A가 일대일 매핑을 한다는 뜻은, Ax=b에서 A가 어떤 두 입력 벡
 # 정리
 
 m-by-n 행렬 A에 대하여, <br><br>
+
 - The column space of A
 	- A의 열벡터가 span하는 공간이다.
 	- column space = range
