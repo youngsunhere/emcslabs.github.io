@@ -27,8 +27,7 @@ published: true
 		  
 - A<sup>T</sup>
 	- A의 **column space에서 row space로 공간은 이동**시켜주지만 개별 벡터간 **일대일 역매핑은 못한다**. 
-
-
+	- A가 남자 1호,2호,3호를 각각 여자 1호,2호,3호와 매칭시키는 함수라고 해보자. A<sup>-1</sup>는 A가 그은 사랑의 작대기를 유지시킨채 여자 셋을 남자 셋에게 매칭시켜준다면, A<sup>T</sup>는 여자 셋을 남자 셋과 매칭시켜주긴 하지만 기존의 작대기를 유지한다는 보장이 없다. 
 - A<sup>+</sup>
 	- A<sup>-1</sup>가 존재하지 않으면 pseudoinverse A<sup>+</sup>를 사용한다.
 	- A<sup>+</sup>는 column space의 벡터들 중 row space에 대응 벡터가 있는 경우에 한하여 inversion을 수행한다.  
