@@ -46,9 +46,9 @@ published: true
   1. Ax=b의 근사해를 구하기 위하여, b를 range(A)에 projection한 것을 Ax<sub>new</sub>라고 하자. A&perp;(b-Ax<sub>new</sub>)이므로 <br>
      A<sup>T</sup>(b-Ax<sub>new</sub>)=0<br>
      A<sup>T</sup>Ax<sub>new</sub>=A<sup>T</sup>b
-  2. x<sub>new</sub> = (A<sup>T</sup>A<sup>)-1</sup>A<sup>T</sup>b
-  3. Ax<sub>new</sub> = A(A<sup>T</sup>A<sup>)-1</sup>A<sup>T</sup>b
-  4. P = A(A<sup>T</sup>A<sup>)-1</sup>A<sup>T</sup>
+  2. x<sub>new</sub> = (A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>b
+  3. Ax<sub>new</sub> = A(A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>b
+  4. P = A(A<sup>T</sup>A)<sup>-1</sup>A<sup>T</sup>
 
 - 벡터 b를 벡터 a 위에 project 하는 법
 	- a와 b의 내적을 a의 길이 제곱으로 나눠준 만큼을 a에 scale한다.
