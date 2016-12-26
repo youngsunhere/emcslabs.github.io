@@ -12,9 +12,10 @@ featured: false
 published: true
 ---
 
-## QR factorization (=decomposition)
+## Reduced QR factorization (=decomposition)
 
 열벡터가 linearly independent한 m-by-n 행렬 A를 Q와 R, 2개의 행렬로 분해하는 방법이다. <br>
+Full QR factorization은 잘 사용하지 않기에 Reduced QR factorization기법 설명만 적어두었다.
 
 1. Q
  - Q의 column space = A의 column space
