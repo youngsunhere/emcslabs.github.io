@@ -25,7 +25,8 @@ published: true
  - Q의 orthonormal basis의 linear combination을 통해 A로 되돌릴 수 있게끔 하는 계수들의 모음
  - 역행렬을 구할 수 있음
  - 대각선 값은 양수임
-
+ - n-by-n
+ 
 - QR factorization를 할 수 있는 방법
   1. Gram-Schmidt Orthogonalization (a.k.a triangular orthogonalization)
   2. Householder Triangularization (a.k.a orthogonal triangularization)
