@@ -8,7 +8,7 @@ tags: [link, resource]
 ---
 **Machine Learning**
 
-A Visual Introduction to Machine Learning: [r2d3.us](https://github.com/chuckgu/OAIS.git)  
+A Visual Introduction to Machine Learning: [r2d3.us](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)  
 AI basic concepts: [Facebook’s advice to students interested in artificial intelligence](https://techcrunch.com/2016/12/01/facebooks-advice-to-students-interested-in-artificial-intelligence/)  
 PRML summary & codes: [PRML summary github page](http://norman3.github.io/prml/)
 
